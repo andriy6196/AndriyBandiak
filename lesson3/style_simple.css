@@ -1,0 +1,82 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.title {
+ text-align: center;  
+ border: solid;
+ border-color: #A52A2A;
+ background-color: #A52A2A;
+ color: white;
+}
+
+#sunset_img {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lorem1 {
+    text-align: left;
+    margin-left: 35px;
+    
+}
+
+.first_italic {
+    font-style: italic;
+}
+
+.bold_lorem {
+    font-weight: bold;
+}
+
+.second_italic {
+    color: blue;
+    font-style: italic;
+}
+
+.cars {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#car_01 {
+    border-style: dashed    ;
+}
+
+#car_02 {
+    border-style: dashed;
+}
+
+#car_03 {
+    border-style: dashed;
+}
+#car_04 {
+    border-style: dashed;
+}
+     
+#car_05 {
+    border-style: dashed;
+}
+
+.lorem2 {
+    text-align: left;
+    margin-left: 35px;
+}
+
+.lorem_blue {
+    color: blue;
+}
+
+.second_titlle {
+    text-align: center;  
+    border: solid;
+    border-color:black;
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
