@@ -21,6 +21,7 @@ body {
 .lorem1 {
     text-align: left;
     margin-left: 35px;
+    font-size: 18px;
     
 }
 
@@ -66,17 +67,20 @@ body {
 .lorem2 {
     text-align: left;
     margin-left: 35px;
+    font-size: 18px;
 }
 
 .lorem_blue {
     color: blue;
 }
 
-.second_titlle {
+.footer{
     text-align: center;  
     border: solid;
     border-color:black;
     background-color: black;
     color: white;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
