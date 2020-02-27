@@ -15,7 +15,7 @@ article {
 
 figure {
     background: black;
-    width: 150px;
+    width: 250px;
     float: left;
     text-align: center;
     
@@ -33,7 +33,39 @@ figure p {
 
 figcaption {
     color: white;
-    margin-left: 130px;
+    margin-left: 150px;
+    font-size: 18px;
+}
+
+.lorem1 {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid #7D0909;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    text-align: left;
+    background-color: #7D0909;
+    text-decoration: underline;
+    color: #E54A0D;
+    line-height: 2;
+    margin-bottom: 30px;
+    margin-top: 3px;
+}
+
+
+
+
+
+.footer{
+    text-align: center;  
+    border: solid;
+    border-color:#E95B11;
+    background-color:#E95B11;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 
