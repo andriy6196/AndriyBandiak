@@ -1,0 +1,336 @@
+body {
+    width: 1280px;
+    height: 976px;
+    background-color: #ffffff
+}
+
+
+.wwa_div {
+margin-bottom: 20px;
+
+}
+
+.wwa {
+    width: 127px;
+    height: 9px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: 4.8px;
+    text-align: right;
+    color: #898f99;
+    margin-left: 586px;
+   
+      
+}
+
+.hn {
+    width: 532px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 4.8px;
+    text-align: right;
+    color: #0ec8cb;
+    margin-left: 374px;
+    text-transform: uppercase;
+}
+
+.wdn_div {
+    margin-top: 35px;
+ }
+
+
+.wdn {
+    width: 513px;
+    height: 43px;
+    font-family: PTSans;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #999999;
+    text-transform: uppercase;
+    margin-left: 383px;
+}
+
+.wdn2 {
+    margin-left: 383px;
+    
+}
+
+.section_1 {
+    margin-top: 108px;
+    
+}
+
+.container_1 {
+    width: 236px;
+    height: 420px;
+    border: solid 1px #ececec;
+    background-color: #f7f7f7;
+    margin-left: 170px;
+    float: left;
+    
+}
+
+.container_1:hover {
+    background-color:#0ec8cb;;
+}
+.container_2:hover {
+    background-color:#0ec8cb;;
+}
+.container_3:hover {
+    background-color:#0ec8cb;;
+}
+.container_4:hover {
+    background-color:#0ec8cb;;
+    
+}
+
+
+.img-bg_1{
+    background: url(Anchor.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    margin-left: 85px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+
+.container_1:hover .img-bg_1 {
+    background: url(Anchor1.png);
+    background-repeat: no-repeat;
+}
+
+.web_design {
+    width: 138px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-left: 49px;
+    
+}
+
+.container_1:hover .fresh {
+    color: white;
+}
+.container_1:hover .web_design {
+    color: white;
+}
+
+.fresh {
+    width: 174px;
+    height: 101px;
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777777;
+    margin-left: 30px;
+    margin-top: 33px;
+}
+
+
+
+.container_2 {
+    width: 240px;
+    height: 420px;
+    border: solid 1px #ececec;
+    background-color: #f7f7f7;
+    float: left;
+    
+} 
+
+.img-bg_2 {
+    background: url(Diamond.png);
+    
+    width: 66px;
+    height: 66px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    margin-left: 85px;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.container_2:hover .img-bg_2 {
+    background: url(Diamond1.png);
+    background-repeat: no-repeat;
+}
+
+.web_development {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-left: 90px;
+    
+    
+}
+
+.web_development_2 {
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-left: 40px;
+    
+}
+
+
+
+.fresh_2 {
+    width: 174px;
+    height: 101px;
+    font-family: PTSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+    text-align: center;
+    color: #777777;
+    margin-left: 30px;
+    margin-top: 33px;
+}
+
+.container_2:hover .web_development {
+    color: white;
+}
+
+.container_2:hover .web_development_2 {
+    color: white;
+}
+.container_2:hover .fresh_2 {
+    color: white;
+}
+
+.container_3 {
+    width: 237px;
+    height: 420px;
+    border: solid 1px #ececec;
+    background-color: #f7f7f7;
+    float: left;
+    
+}
+
+.graphics {
+    width: 112px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-left: 62px;
+}
+
+.img-bg_3 {
+    background: url(Eyeglasses.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    margin-left: 85px;
+    background-repeat: no-repeat;
+}
+
+.container_3:hover .img-bg_3 {
+    background: url(Eyeglasses1.png);
+    background-repeat: no-repeat;
+}
+
+.container_3:hover .fresh {
+    color: white;
+}
+
+.container_3:hover .graphics {
+    color: white;
+}
+
+.container_4 {
+    width: 236px;
+    height: 420px;
+    border: solid 1px #ececec;
+    background-color: #f7f7f7;
+    float: left;
+    
+}
+
+.img-bg_4 {
+    background: url(Monitor.png);
+    width: 66px;
+    height: 66px;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    margin-left: 85px;
+    background-repeat: no-repeat;
+}
+
+.Illustrations {
+    width: 138px;
+    height: 16px;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+
+.container_4:hover .img-bg_4 {
+    background: url(Monitor1.png);
+    background-repeat: no-repeat;
+}
+
+.container_4:hover .Illustrations {
+    color: white;
+}
+
+.container_4:hover .fresh {
+    color: white;
+}
