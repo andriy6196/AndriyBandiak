@@ -1,12 +1,12 @@
 body {
     width: 1280px;
-    height: 976px;
+    height: 976px; 
     background-color: #ffffff
 }
 
 
 .wwa_div {
-margin-bottom: 20px;
+    margin-bottom: 20px;
 
 }
 
@@ -333,4 +333,113 @@ margin-bottom: 20px;
 
 .container_4:hover .fresh {
     color: white;
+}
+
+
+
+.root_container {
+    max-width: 1280px;
+    margin: 0 auto;   
+}
+
+.section_2 {
+    width: 1280px;
+    margin: 0 auto;
+    clear: both;
+    
+}
+
+.section_2 .container {
+    float: left;
+    width: 33%;
+}
+
+.rs {
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.etiam {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.35px;
+    text-align: center;
+    color: #9d9d9d;
+    font-weight: bold;
+}
+
+.img_bg_1 {
+    background: url(Tablet.png);
+    border-radius: 50%;
+    width: 65px;
+    height: 66px;
+    border-color: blue;
+    margin-left: 177px;
+    background-color: #1275b9;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-position: center;
+}
+
+.img_bg_2 {
+    background: url(Settings.png);
+    border-radius: 50%;
+    width: 65px;
+    height: 66px;
+    border-color: blue;
+    margin-left: 177px;
+    background-color: #1275b9;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-position: center;
+}
+
+.img_bg_3 {
+    background: url(Dashboard.png);
+    border-radius: 50%;
+    width: 65px;
+    height: 66px;
+    border-color: blue;
+    margin-left: 177px;
+    background-color: #1275b9;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    background-position: center;
+}
+
+.container1:hover .img_bg_1 {
+    background-color: transparent;
+    background: url(Tablet_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px #1275b9;
+}
+
+.container2:hover .img_bg_2 {
+    background-color: transparent;
+    background: url(Settings_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px #1275b9;
+}
+
+.container3:hover .img_bg_3 {
+    background-color: transparent;
+    background: url(Dashboard_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px #1275b9;
 }
