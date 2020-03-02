@@ -420,7 +420,7 @@ body {
     background-position: center;
 }
 
-.container1:hover .img_bg_1 {
+.container1 .img_bg_1:hover {
     background-color: transparent;
     background: url(Tablet_2.png);
     background-repeat: no-repeat;
@@ -428,7 +428,7 @@ body {
     border: solid 1px #1275b9;
 }
 
-.container2:hover .img_bg_2 {
+.container2 .img_bg_2:hover {
     background-color: transparent;
     background: url(Settings_2.png);
     background-repeat: no-repeat;
@@ -436,7 +436,7 @@ body {
     border: solid 1px #1275b9;
 }
 
-.container3:hover .img_bg_3 {
+.container3 .img_bg_3:hover {
     background-color: transparent;
     background: url(Dashboard_2.png);
     background-repeat: no-repeat;
