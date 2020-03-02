@@ -1,8 +1,8 @@
 body {
- padding: 0;
- margin: 0;
- line-height: 1;   
- font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    line-height: 1;   
+    font-family: Montserrat;
 }
 
 
@@ -22,7 +22,7 @@ body {
 
 
 #beetroot_img {
-width: 100%;    
+    width: 100%;    
 }
 
 .lessons_list {
@@ -32,17 +32,17 @@ width: 100%;
 }
 
 .lessons_list .list_item {
-padding: 40px 30px;
-font-size: 14px;
-border-bottom: 1px solid darkgray;
-text-transform: uppercase;
-padding: 20px;
-text-align: center;
-background: lightgrey;
+    padding: 40px 30px;
+    font-size: 14px;
+    border-bottom: 1px solid darkgray;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    background: lightgrey;
 }
 
 .lessons_list .list_item:last-child {
-border-bottom: none;    
+     border-bottom: none;    
 }
 
 .list_item a {
@@ -53,5 +53,19 @@ border-bottom: none;
     
 }
 
+.list_item a:hover {
+    color: white;
+}
+
+.list_item:hover {
+    background: rgba(239,197,202,1);
+    background: -moz-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(239,197,202,1)), color-stop(50%, rgba(210,75,90,1)), color-stop(51%, rgba(186,39,55,1)), color-stop(100%, rgba(241,142,153,1)));
+    background: -webkit-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+    background: -o-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+    background: -ms-linear-gradient(left, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+    background: linear-gradient(to right, rgba(239,197,202,1) 0%, rgba(210,75,90,1) 50%, rgba(186,39,55,1) 51%, rgba(241,142,153,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99', GradientType=1 );
+}
 
 
