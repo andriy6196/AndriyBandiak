@@ -443,3 +443,15 @@ body {
     background-position: center;
     border: solid 1px #1275b9;
 }
+
+
+
+/* lesson_weather */
+
+.box1 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    margin: left;
+    border: solid 1px black;
+}
