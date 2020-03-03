@@ -446,12 +446,4 @@ body {
 
 
 
-/* lesson_weather */
 
-.box1 {
-    display: inline-block;
-    width: 200px;
-    height: 100px;
-    margin: left;
-    border: solid 1px black;
-}
