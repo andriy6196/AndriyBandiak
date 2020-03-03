@@ -1,0 +1,42 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    background-color: #3399CC;
+    border: 1rem solid #2B81AC;
+    height: 670px;
+}
+
+.weather {
+    max-width: 1280px;   
+    clear: both;
+    background-color: #3398CC;
+    border: solid 15px #2C80AC;
+}
+
+h1 {
+    font-family: Montserrat;
+    color: white;
+}
+
+ul {
+    font-size: 0;
+}
+
+li {
+    font-family: Montserrat;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box {
+    display: inline-block;
+    
+
+}
+
+.box1 {
+    width: 400px;
+}
