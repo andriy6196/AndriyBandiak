@@ -1,8 +1,8 @@
 body {
- padding: 0;
- margin: 0;
- line-height: 1;   
- font-family: Montserrat;
+    padding: 0;
+    margin: 0;
+    line-height: 1;   
+    font-family: Montserrat;
 }
 
 
@@ -22,7 +22,8 @@ body {
 
 
 #beetroot_img {
-width: 100%;    
+   width: 80%;
+   
 }
 
 .lessons_list {
@@ -32,17 +33,17 @@ width: 100%;
 }
 
 .lessons_list .list_item {
-padding: 40px 30px;
-font-size: 14px;
-border-bottom: 1px solid darkgray;
-text-transform: uppercase;
-padding: 20px;
-text-align: center;
-background: lightgrey;
+    padding: 40px 30px;
+    font-size: 14px;
+    border: 1px solid darkgray;
+    text-transform: uppercase;
+    padding: 20px;
+    text-align: center;
+    
 }
 
 .lessons_list .list_item:last-child {
-border-bottom: none;    
+    border-bottom: none;    
 }
 
 .list_item a {
@@ -52,6 +53,5 @@ border-bottom: none;
     text-decoration: none;
     
 }
-
 
 
