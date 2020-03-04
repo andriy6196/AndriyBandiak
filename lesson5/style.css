@@ -93,40 +93,41 @@ li:hover {
     border-bottom: 3px solid white;  
 }
 
+
+input:checked,
 input:checked ~ span {
     text-decoration: line-through;
     color:#cccccc;
 }
 
-li.pickles::after {
+li.pickles span::after {
     content: " ( for the next lessons about CSS )";
     color:#cccccc;
     font-size: 20px;
     
 }
 
-li.apples::after {
+li.apples span::after {
     content: " ( for more CSS manipulations )";
     color:#cccccc;
     font-size: 20px;
 }
 
-li.oranges::after {
+li.oranges span::after {
     content: " ( because they are awesome )";
     color:#cccccc;
     font-size: 20px;
 }
 
-li.plates::after {
+li.plates span::after {
     content: " ( hm... they always disappier )";
     color:#cccccc;
     font-size: 20px;
 }
 
-li.sake::after {
+li.sake span::after {
     content: " ( for my friends )";
     color:#cccccc;
     font-size: 20px;
 }
-
 
