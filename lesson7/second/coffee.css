@@ -1,0 +1,116 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    width: 1500px;
+    height: 600px;
+    background-color: #FDDF7F;
+}
+
+section {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    margin: 10px;   
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#dive {
+    background-color: white;
+    margin: 20px;
+    box-shadow: 0.1em 0.1em 5px rgba(122,122,122,0.5);
+}
+
+
+.coffee {
+    width: 361px;
+    height: 481px;
+}
+
+.gold_container {
+    width: 361px;
+    height: 520px;
+    
+}
+
+.text{
+    font-family: Caveat;
+    font-size: 70px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.34;
+    letter-spacing: 1.75px;
+    text-align: center;
+    color: #02995b;
+}
+
+#img {
+    height: 150px;
+    width: 150px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.bronze {
+    background: url(Bronze.png);
+    background-repeat: no-repeat;   
+}
+
+.gold {
+    background: url(Gold.png);
+    background-repeat: no-repeat;
+}
+
+.silver {
+    background: url(Silver.png);
+    background-repeat: no-repeat;
+}
+
+.second_text {
+    width: 150px;
+    height: 80px;
+    font-family: Caveat;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #333333;
+    font-size: 56px;
+    letter-spacing: normal;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+
+.third_text {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    font-family: Montserrat;
+    font-weight: 500;
+}
+
+.gold_container:hover {
+    width: 371px;
+    height: 530px;
+}
+
+.coffee:hover {
+    width: 371px;
+    height: 491px;
+}
+
+#img:hover{
+    height: 170px;
+    width: 170px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
