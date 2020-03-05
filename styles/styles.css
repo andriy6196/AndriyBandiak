@@ -22,10 +22,9 @@ body {
 
 
 #beetroot_img {
-   width: 80%;
-   
-=======
-    width: 100%;    
+    width: 800px;
+    margin: 0 auto;
+    display: block;
 }
 
 .lessons_list {
