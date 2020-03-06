@@ -25,10 +25,11 @@ body {
     width: 800px;
     margin: 0 auto;
     display: block;
+    
 }
 
 .lessons_list {
-    border: 1px solid darkgray;
+    
     list-style-type: none;
     padding: 0;
 }
@@ -43,22 +44,20 @@ body {
     
 }
 
-.lessons_list .list_item:last-child {
+.lessons_list .list_item {
     border-bottom: none;    
-    border-bottom: 1px solid darkgray;
     text-transform: uppercase;
     padding: 20px;
     text-align: center;
-    background: lightgrey;
+    background:#5ce9ff;
+    border: 1px solid #5ce9ff;
 }
 
-.lessons_list .list_item:last-child {
-     border-bottom: none;   
-}
+
 
 .list_item a {
     font-size: 30px;
-    color: violet;
+    color:#FFA959;
     font-weight: bold;
     text-decoration: none;
     

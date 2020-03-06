@@ -1,0 +1,161 @@
+* {
+    transition: all .1s ease-in;
+}
+
+body {
+    width: 1450px;
+    height: 1298px;
+}
+
+section {
+    margin: 30px;
+    padding: 0;
+}
+
+#container {
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#dive_1 {
+    width: 750px;
+    background: url(Car.png);
+    height: 540px;
+    background-repeat: no-repeat;
+}
+
+#dive {
+    width: 360px;
+    height: 540px;
+    background-color: white;   
+}
+
+.boxes {
+    margin: 15px;
+}
+
+.text { 
+    width: 133px;
+    height: 13px;
+    font-family: HansKendrick;
+    font-size: 13px;
+    font-weight: 700;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.31;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #999999;
+    margin-left: 35px;
+    text-transform: uppercase;
+  }
+
+.text1 {
+    padding-top: 404px;
+}
+
+  
+
+  .content {
+    width: 307px;
+    height: 78px;
+    font-family: HansKendrick;
+    font-size: 20px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: 0.55px;
+    text-align: left;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    margin-left: 35px;
+}
+  
+h1 {
+    width: 433px;
+    height: 60px;
+    font-family: HansKendrick;
+    font-size: 25px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 35px;
+    text-transform: uppercase;
+}
+
+
+#img {
+    width: 360px;
+    height: 251px;
+    background-repeat: no-repeat;
+}
+
+
+.girl {
+    background: url(Girl.png);
+}
+
+.twogirls {
+    background: url(Twogirls.png);
+}
+
+.shoes {
+    background: url(Shoes.png);
+}
+
+.city {
+    background: url(City.png);
+}
+
+
+#man {
+    background: url(Man.png);
+    width: 54px;
+    height: 54px;
+    text-align: left;
+    margin-left: 35px;
+    margin-top: 70px;
+}
+
+.footer {
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px;
+}
+
+.vector {
+    background: url(Vector.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 28px; 
+}
+
+
+.footer_text {
+    width: 164px;
+    height: 10px;
+    font-family: HansKendrick;
+    font-size: 10px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.31;
+    letter-spacing: 0.33px;
+    text-align: left;
+    color: #99a5b0;
+    text-transform: uppercase;
+    
+}
+
+.margin {
+   margin: 10px;
+}
