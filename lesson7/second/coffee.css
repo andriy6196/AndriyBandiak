@@ -51,24 +51,27 @@ section {
     height: 150px;
     width: 150px;
     background-repeat: no-repeat;
-    margin: 0 auto;
     padding: 0;
     display: block;
+    
 }
 
 .bronze {
     background: url(Bronze.png);
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat; 
+    margin-left:120px ;  
 }
 
 .gold {
     background: url(Gold.png);
     background-repeat: no-repeat;
+    margin-left:120px ;
 }
 
 .silver {
     background: url(Silver.png);
     background-repeat: no-repeat;
+    margin-left:110px ;
 }
 
 .second_text {
