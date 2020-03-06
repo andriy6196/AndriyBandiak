@@ -89,7 +89,7 @@ section {
     font-size: 56px;
     letter-spacing: normal;
     margin: 0 auto;
-    padding-top: 15px;
+    padding-top: 30px;
 }
 
 .third_text {
@@ -103,18 +103,16 @@ section {
 .gold_container:hover {
     width: 371px;
     height: 530px;
+    
 }
 
 .coffee:hover {
     width: 371px;
     height: 491px;
+    
+    
 }
 
 #img:hover{
-    height: 170px;
-    width: 170px;
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    padding: 0;
-    display: block;
+   transform: scale(1.5);
 }
