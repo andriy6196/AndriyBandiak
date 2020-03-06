@@ -5,10 +5,12 @@
 body {
     width: 1450px;
     height: 1298px;
+    margin: 0 auto;
+    background-color: #e2e7ec;
 }
 
 section {
-    margin: 30px;
+    margin: 0 auto;
     padding: 0;
 }
 
