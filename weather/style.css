@@ -26,10 +26,11 @@ ul {
     padding: 0;
     width: 100%;
     border: 5px solid white;
+    
 }
 
 li {
-    display: inline-block;
+    
     font-size:20px;
     font-family:  Montserrat;
     color:white;
@@ -37,6 +38,9 @@ li {
     padding-bottom: 30px;
     border: 2px solid white ;
     box-sizing: border-box;
+    
+    
+   
 }
 
 
@@ -105,3 +109,9 @@ li:hover {
     background-color: #0C0845;
 }
 
+.container {
+    display: flex; 
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
