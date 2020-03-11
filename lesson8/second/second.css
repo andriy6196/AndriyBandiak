@@ -1,7 +1,6 @@
 body {
     width: 1200px;
     height: 900px;
-    background-color: #ffffff;
     margin: 0 auto;
 }
 
@@ -27,7 +26,7 @@ body {
 
 #all {
     border-left:2px solid #e8eced;;
-    height: 751px;
+    height: 900px;
     margin-left: 137px;
 }
 
