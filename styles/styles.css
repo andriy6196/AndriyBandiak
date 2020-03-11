@@ -10,6 +10,7 @@ body {
     width: 70%;
     max-width: 700px;
     margin: 0 auto;
+    
 }
 
 .title {
@@ -29,9 +30,10 @@ body {
 }
 
 .lessons_list {
-    
     list-style-type: none;
-    padding: 0;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .lessons_list .list_item {
