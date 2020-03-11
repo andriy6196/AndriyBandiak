@@ -1,0 +1,218 @@
+body {
+    width: 1200px;
+    height: 900px;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Futura PT';
+    src: url(FuturaPT-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(ProximaNova-Regular.ttf)
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url(Georgia.ttf);
+}
+
+@font-face {
+    font-family: 'Georgia italic';
+    src: url(Georgia-Italic.ttf);
+}
+
+#all {
+    border-left:2px solid #e8eced;;
+    height: 751px;
+    margin-left: 137px;
+}
+
+.section_box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container1 {
+    width: 876px;
+    height: 187px;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #181818;
+    
+}
+
+.title {
+    font-family: 'ProximaNova';
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 4.8px;
+    text-align: left;
+    color: #767676;
+    text-transform: uppercase;
+    padding-left: 63px;
+    
+}
+
+.like {
+    font-family: 'Playfair Display', serif;;
+    font-size: 48px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fefefe;
+    padding-left: 63px;
+}
+
+.hr1 {
+    width: 816px;
+    height: 3px;
+    opacity: 0.1;
+    background-color: #ffffff;
+    margin-left: 60px;
+}
+
+.container2 {
+    width: 812px;
+    height: 76px;
+    box-shadow: -3.5px -3.5px 59px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fbc02d;  
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+
+.img {
+    background-repeat: no-repeat;
+    margin-left: 32px ;
+}
+
+.same {
+    width: 28px;
+    height: 27px;
+}
+
+.opacity {
+    opacity: 0.5;
+}
+
+.img1 {
+    background: url(ic1.png);
+    width: 38px;
+    height: 32px;
+}
+
+.img2 {
+    background: url(ic2.png);
+    width: 30px;
+    height: 23px;
+}
+
+.img3 {
+    background: url(ic3.png);
+}
+
+.img4 {
+    background: url(ic4.png);
+    width: 20px;
+    height: 26px;
+}
+
+.img5 {
+    background: url(ic5.png);
+    width: 19px;
+    height: 22px;
+}
+
+.img6 {
+    background: url(ic6.png);
+    width: 22px;
+    height: 27px;
+}
+
+.img7 {
+    background: url(ic7.png);
+}
+
+.img8 {
+    background: url(ic8.png);
+}
+
+.img9 {
+    background: url(ic9.png);
+}
+
+.img10 {
+    background: url(ic10.png);
+}
+
+.roy {
+    font-family: 'ProximaNova';
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.38px;
+    text-align: left;
+    color: #b4b4b4;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-left: 56px;
+    padding-top: 41px;
+}
+
+.rain {
+    font-family: 'Futura PT';
+    font-size: 78px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.94;
+    letter-spacing: 4.13px;
+    text-align: left;
+    color: #2a2a2a;
+    text-transform: uppercase;
+    margin: 0 auto;
+    padding-left: 52px;
+    padding-top: 27px;
+}
+
+.where {
+    font-family: 'Georgia italic';
+    font-size: 30px;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: normal;
+    color: #8f8f8f;
+    margin: 0 auto;
+    padding-left: 54px;
+    padding-top: 21px;
+}
+
+.die {
+    font-style: italic;
+}
+
+.big {
+    font-family: Georgia;
+    font-size: 27px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: justify;
+    color: #000000;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-left: 55px;
+}
+
