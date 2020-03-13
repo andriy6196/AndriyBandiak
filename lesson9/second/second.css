@@ -156,6 +156,7 @@ h1 {
 }
 
 .box:hover{
-    transform-origin: center;
+    transform: scale(1.10);
+    transition-duration: 1.0s;
 }
 
