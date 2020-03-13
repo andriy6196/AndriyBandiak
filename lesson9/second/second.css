@@ -1,5 +1,5 @@
 body {
-    width: 1600px;
+    width: 1400px;
     height: 736px;
     margin: 0 auto;
 }
@@ -8,7 +8,7 @@ body {
 
 #section1 {
     width: 1170px;
-    height: 736px;
+    height: 750px;
     margin: 0 auto;
     background-image: url(backgroud.png);
 }
