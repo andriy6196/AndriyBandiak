@@ -10,7 +10,6 @@ body {
     width: 1170px;
     height: 785px;
     margin: 0 auto;
-    background-image: url(backgroud.png);
 }
 
 h1 {
@@ -150,3 +149,13 @@ h1 {
     letter-spacing: normal;
     color: #646464;
 }
+
+.img:hover {
+    transform: scale(1.09);
+    transition-duration: .8s;
+}
+
+.com:hover{
+    transform-origin: center;
+}
+
