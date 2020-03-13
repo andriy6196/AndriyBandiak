@@ -88,24 +88,6 @@ span {
     color: white;
 }
 
-.box:hover{
-    width: 380px;
-    height: 320px;
-    background-repeat: no-repeat;
-}
-
-.box1:hover {
-    background: url(picture_1.png);
-}
-
-.box2:hover {
-    background: url(picture_2.png);
-}
-
-.box3:hover {
-    background: url(picture_3.png);
-}
-
 .text2 {
     font-family: Raleway;
     font-size: 20px;
@@ -149,13 +131,13 @@ button {
 }
 
 button:hover {
-    width: 210px;
-    height: 65px;
-    transform: scale(1.02);
+    transform: scale(1.10);
+    transition-duration: 1.0s;
 }
 
 #img:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
+    transition-duration: 1.0s;
 }
 
 

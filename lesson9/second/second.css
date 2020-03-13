@@ -155,7 +155,7 @@ h1 {
     transition-duration: .8s;
 }
 
-.com:hover{
+.box:hover{
     transform-origin: center;
 }
 
