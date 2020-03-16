@@ -153,6 +153,15 @@ button {
     position: absolute;
     margin-left: 165px;
     margin-top: 430px;
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.buttonhref {
+    text-decoration: none;
+    list-style: none;
+    color: #ffffff;
 }
 
 button:hover {
