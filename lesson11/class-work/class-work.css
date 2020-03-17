@@ -1,0 +1,174 @@
+*{ 
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 800px;
+    max-height: 600px;
+    position: absolute;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+    overflow: auto; 
+    background: url(bg.png) no-repeat center center;
+    background-color: #333333;
+    
+}
+.form{
+    width: 336px;
+    height: 532px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+}
+.header{
+    width: 336px;
+    height: 72px;
+    background-color: #f8edaf;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    align-items: center;
+}
+.text1.big{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #6e7f7b;
+    padding: 0px;
+    margin: 0px;
+    line-height: 1;
+}
+.text1.small{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.75px;
+    text-align: left;
+    color: #a6a28d;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text2 .price{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    text-align: left;
+    color: #637570;
+
+}
+
+.text {
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9eabad;
+    padding-top: 5px;
+}
+
+.form2{
+    padding: 30px;
+}
+
+.form2 input{
+    box-sizing: border-box;
+    border: solid 2px #82d4e7;
+    background-color: #ffffff;
+    width: 288px;
+    height: 44px; 
+    color: #727f82;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.mounth_first{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.mounth_first select:first-child,.mounth_first select:last-child{
+    box-sizing: border-box;
+    border: solid 2px #bac8cb;
+    background-color: #ffffff;
+    padding: 4px;
+    flex: 1 1 auto;
+    color: #999999;
+}
+.mounth_first select:first-child{
+    margin-right: 16px;
+}
+
+.mounth_first select:last-child {
+    width: 35px;
+    height: 44px;
+}
+
+button {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.button1{
+    width: 288px;
+    height: 48px;
+    background-color: #25b86a;
+    border: 0px;
+    margin-top: 50px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.button2 {
+    border: 0px;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    background-color: white;
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+    width: 77px;
+    height: 1px;
+    background-color: #e4eaea;
+    margin: 0 auto;
+}
+
