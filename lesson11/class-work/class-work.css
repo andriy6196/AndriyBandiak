@@ -18,9 +18,10 @@
     height: 532px;
     background-color: #ffffff;
     margin: 0 auto;
-    margin-top: 35px;
-    
+    margin-top: 35px;  
 }
+
+
 .header{
     width: 336px;
     height: 72px;
@@ -85,14 +86,31 @@
 }
 
 .form2{
-    padding: 30px;
+    padding: 25px;
+    margin: 0 auto;
 }
 
-.form2 input{
+.form2 input#card{
     box-sizing: border-box;
     border: solid 2px #82d4e7;
     background-color: #ffffff;
     width: 288px;
+    height: 44px; 
+    color: #727f82;
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.form2 input#cvv {
+    box-sizing: border-box;
+    border: solid 2px #bac8cb;
+    background-color: #ffffff;
+    width: 97px;
     height: 44px; 
     color: #727f82;
     font-family: Montserrat;
@@ -109,12 +127,13 @@
     flex-direction: row;
     justify-content: space-between;
     padding-top: 5px;
+    width: 288px;
 }
 .mounth_first select:first-child,.mounth_first select:last-child{
     box-sizing: border-box;
     border: solid 2px #bac8cb;
     background-color: #ffffff;
-    padding: 4px;
+    padding: 6px;
     flex: 1 1 auto;
     color: #999999;
 }
@@ -125,6 +144,10 @@
 .mounth_first select:last-child {
     width: 35px;
     height: 44px;
+}
+
+.form2 input#cvv select:last-child {
+    width: 96px;
 }
 
 button {
@@ -151,7 +174,7 @@ button {
 }
 
 .button2 {
-    border: 0px;
+    border: none;
     font-family: Montserrat;
     font-size: 12px;
     font-weight: normal;
@@ -161,14 +184,31 @@ button {
     letter-spacing: normal;
     text-align: center;
     background-color: white;
+    color: #9eabad;
 }
 
+.cancel {
+    border-bottom: 1px solid #9eabad!important;
+}
+
+
 hr {
-    margin: 0px;
-    padding: 0px;
-    width: 77px;
+    width: 288px;
     height: 1px;
-    background-color: #e4eaea;
-    margin: 0 auto;
+    background-color: #edf0f1;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.text_cvv2 {
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #9eabad;
 }
 
