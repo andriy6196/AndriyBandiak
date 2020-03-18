@@ -151,3 +151,8 @@ input[type=submit]:hover {
     text-align: center;
     color: #787d87;
 }
+
+div a:hover .icon2 {
+    transform: scale(1.1);
+    transition-duration: 1.0s;
+}
