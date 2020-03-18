@@ -93,6 +93,8 @@ form input#email {
     box-shadow: inset 0px 5px 5px 0 rgba(0, 0, 0, 0.05);
     border: solid 1px #c4c4c4;
     background-color: #ffffff;
+    padding: 5px;
+    font-size: 25px;
 }
 
 input::-webkit-input-placeholder {

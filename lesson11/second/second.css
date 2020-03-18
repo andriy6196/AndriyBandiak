@@ -141,11 +141,11 @@ input{
 
 .us {
     width: 261px;
-    height: 35px;
+    height: 40px;
     border: solid 2px rgba(191, 185, 204, 0.54);
     background-color: rgba(153, 102, 204, 0.2);
-    padding-top: 5px;
     margin-bottom: 18px;
+    padding-left: 5px;
 }
 
 
@@ -165,6 +165,7 @@ input{
     text-align: center;
     color: #fbf6e4;
     margin-top: 41px;
+    margin-left: 5px;
   }
 
 button:hover {
@@ -201,7 +202,7 @@ label span {
     background-color:#23ae92;
     border-radius:2px;
     padding:3px;
-  }
+}
 
   [type=checkbox]:checked + span:before {
     
@@ -232,7 +233,7 @@ label span {
   div.hrefs {
       display: flex;
       justify-content: space-evenly;
-      margin-right: 75px;
+      margin-right: 65px;
       margin-top: 33px;
   }
 
