@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+body {
+    width: 100%;
+    max-width:1920px; 
+    height: 4690px;
+}
+
+/* container */
+
+div.box1 {
+    width: 100%;
+    max-width:1920px; 
+    height: 1075px;
+    background: url(hero-bg.png);
+}
+
+div.first_logo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 297px;
+    padding-bottom: 96px;
+}
+
+h1 {
+    font-size: 54px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 8.64px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 53px;
+}
+
+div.text1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.par1 {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.93;
+    letter-spacing: 0.9px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+div.second_logo {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 245px;
+    animation: scrollss 1s infinite;
+}
+
+@keyframes scrollss {
+    0% {
+        transform: transclateY (0);
+    }
+
+    50% {
+        transform: translateY (10%);
+    }
+
+    100% {
+        transform: transclateY (0);
+    }
+}
