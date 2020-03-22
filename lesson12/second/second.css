@@ -15,6 +15,8 @@ body {
 
 /* container */
 
+/* Box1 */
+
 div.box1 {
     width: 100%;
     max-width:1920px; 
@@ -66,19 +68,341 @@ div.second_logo {
     display: flex;
     justify-content: center;
     padding-top: 245px;
-    animation: scrollss 1s infinite;
+    animation: scroll 1s infinite;
 }
 
-@keyframes scrollss {
+@keyframes scroll { /* ANIMATION SCROLL */
     0% {
-        transform: transclateY (0);
+        transform: translateY(0);
     }
 
     50% {
-        transform: translateY (10%);
+        transform: translateY(3%);
     }
 
     100% {
-        transform: transclateY (0);
+        transform: translateY(0);
     }
+}
+
+/* Box2 */
+
+div.box2 {
+    width: 100%;
+    max-width:1920px; 
+    height: 628px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fieldset1 {
+    width: 902px;
+    height: 340px;
+    border: solid 2px #3c3c3c;
+    background-color: #3c3c3c;
+    text-align: center;
+    background-color: white;
+}
+
+h2.h2-1 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.44px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.par_about {
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.par-2 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+
+
+/* box3 */
+
+
+
+div.box3 {
+    width: 100%;
+    max-width: 1920px;
+    height: 488px;
+    background: url(services-bg.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fieldset2 {
+    width: 899px;
+    height: 260px;
+    border: solid 2px #ffffff;
+    text-align: center;
+    background-color: none;
+}
+
+h2.h2-2 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.44px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.par_services {
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.par-4 {
+    margin-top: 50px;
+}
+
+
+/* box4 */
+
+
+div.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+
+.fieldset3 {
+    width: 902px;
+    height: 1182px;
+    text-align: center;
+}
+
+.icons {
+    margin-top: 85px;
+    margin-bottom: 39px;
+}
+
+h2.h2-3 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.44px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+h3.h3s {
+    padding-bottom: 37px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 3.2px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.par_wwd {
+    font-size: 14px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.85;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+/* box5 */
+
+div.box5 {
+    width: 100%;
+    max-width: 1920px;
+    height: 490px;
+    margin-top: 114px;
+}
+
+.boxs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layers {
+    margin: 0px 10px 10px 0px;
+}
+
+.layers:last-child { 
+    margin-right: 0px; 
+}
+
+
+.layer1 {
+    background: url(img1.jpg);
+    width: 548px;
+    height: 237px;
+}
+
+.layer2 {
+    background: url(img2.jpg);
+    width: 802px;
+    height: 237px;
+}
+
+.layer3 {
+    background: url(img3.jpg);
+    width: 550px;
+    height: 237px;
+}
+
+.layer4 {
+    background: url(img4.jpg);
+    width: 548px;
+    height: 237px;
+}
+
+.layer5 {
+    background: url(img5.jpg);
+    width: 802px;
+    height: 237px;
+}
+
+.layer6 {
+    background: url(img6.jpg);
+    width: 550px;
+    height: 237px;
+}
+
+span.layers_text {
+    font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.44px;
+    color: #ffffff;
+    padding-top: 169px;
+    padding-left: 53px;
+    position: absolute;
+}
+
+
+
+/* box6 */
+
+
+div.box6 {
+    width: 100%;
+    max-width: 1920px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+h2.h2-4 {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 4.8px;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.fieldset4 {
+    width: 899px;
+    height: 260px;
+    border: solid 2px #3c3c3c;
+    text-align: center;  
+}   
+
+.par_contact {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.62;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+}
+
+.but_contact {
+    width: 395px;
+    height: 58px;
+    border: solid 2px #3c3c3c;
+    background-color: #3c3c3c;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 2.56px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.but_contact:hover {
+    background-color: black;
+}
+
+/* footer */
+
+.footer_icon {
+    position: absolute;
+    margin-left: -72px;
+    margin-top: -13px;
+}
+
+footer {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #3c3c3c;
+    margin-top: 77px;
+    position: relative;
 }
