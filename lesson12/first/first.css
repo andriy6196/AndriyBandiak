@@ -170,7 +170,6 @@ span.lorem1 {
 div.box2 {
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -183,7 +182,6 @@ div.box2_1 {
 div.box2_2 {
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
