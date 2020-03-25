@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#section4 {
+  margin: 0 auto;
+}
+#section4 .container_section4 {
+  background: url(../section4/background.png) center/cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  height: 960px;
+}
+#section4 .container_box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+#section4 h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 90px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.28;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+  padding-top: 60px;
+}
+#section4 .text1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.47;
+  letter-spacing: normal;
+  text-align: center;
+  color: #262626;
+  padding-top: 60px;
+}
+#section4 .box1 {
+  width: 474px;
+  height: 50px;
+  background-color: #00c4c4;
+}
+#section4 .w3-container {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding-top: 13px;
+  padding-left: 20px;
+}
+#section4 .w3-leftbar {
+  border-left: 6px solid #ccc !important;
+  height: 37px;
+}
+#section4 .w3-border-blue,
+#section4 .w3-hover-border-blue:hover {
+  border-color: #336699 !important;
+}
+#section4 form.form1 {
+  width: 500px;
+}
+#section4 .form1 {
+  display: flex;
+  flex-direction: column;
+}
+#section4 .form1 input {
+  width: 480px;
+  height: 50px;
+  background-color: #00c4c4;
+  border: 0px;
+  margin-top: 15px;
+  padding-left: 20px;
+}
+#section4 #message {
+  padding-bottom: 250px;
+}
+#section4 input::-webkit-input-placeholder {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+#section4 :focus::-webkit-input-placeholder {
+  color: transparent;
+}
+#section4 :focus::-moz-placeholder {
+  color: transparent;
+}
+#section4 :focus:-moz-placeholder {
+  color: transparent;
+}
+#section4 :focus:-ms-input-placeholder {
+  color: transparent;
+}
+#section4 input {
+  border: 2px solid gainsboro;
+  color: #2980b9;
+  font-size: 16px;
+  box-shadow: 1px 1px 3px 1px rgba(200, 200, 200, 0.2) inset;
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+#section4 input:hover {
+  border: 2px solid #3498db;
+  box-shadow: 1px 1px 3px 1px rgba(52, 152, 219, 0.2) inset;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  ition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+#section4 input:focus {
+  border: 2px solid #3498db;
+  box-shadow: 0px 0px 0px 0px #3498db;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 100ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+#section4 h3 {
+  font-family: "Raleway", sans-serif;
+}
+#section4 .info {
+  font-family: "Pacifico", cursive;
+}
+#section4 footer {
+  width: 100%;
+  height: 103px;
+  background-color: #262626;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+}
+#section4 .footer1 {
+  width: 259px;
+  height: 16px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b9b9b9;
+}
+#section4 .footer2 {
+  width: 64px;
+  height: 27px;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: right;
+  color: #b9b9b9;
+}
+#section4 .footer3 {
+  width: 192px;
+  height: 14px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.67;
+  letter-spacing: normal;
+  text-align: left;
+  color: #b9b9b9;
+}
+#section4 .love {
+  font-weight: bold;
+  color: #ff2b58;
+}

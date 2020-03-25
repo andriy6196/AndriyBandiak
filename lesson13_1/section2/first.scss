@@ -3,13 +3,12 @@
 
 #section2 {
   width: 100%;
-  height: 2100px;
 
   #services {
     background-color: #70bfff;
     width: 100%;
-    height: 880px;
     padding-top: 180px;
+    height: 750px;
   }
 
   /* box1 */
@@ -40,6 +39,7 @@
     letter-spacing: normal;
     color: #262626;
     font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
   }
   .item3 {
     width: 400px;
@@ -58,6 +58,7 @@
     letter-spacing: normal;
     color: #262626;
     font-family: "Raleway", sans-serif;
+    box-sizing: border-box;
   }
 
   p {
