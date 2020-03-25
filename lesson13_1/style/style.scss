@@ -1,0 +1,10 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+@import "../section1/first.scss";
+@import "../section2/first.scss";
+@import "../section3/first.scss";
