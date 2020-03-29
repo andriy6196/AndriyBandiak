@@ -1,0 +1,1 @@
+function backToTop(){let o=$(".back-to-top");$(window).on("scroll",()=>{$(this).scrollTop()>=50?o.fadeIn(100):o.fadeOut(100)}),o.on("click",o=>{o.preventDefault(),$("html").animate({scrollTop:0},100)})}backToTop();
