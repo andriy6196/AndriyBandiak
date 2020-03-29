@@ -20,6 +20,14 @@
     justify-content: space-between;
     margin: 0 auto;
     align-items: center;
+    @media screen and (max-width: 321px) {
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   div.items {
@@ -40,6 +48,18 @@
     color: #262626;
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
+    @media screen and (max-width: 321px) {
+      width: 310px;
+      padding-left: 10px;
+      font-size: 17px;
+      margin-left: 5px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
   .item3 {
     width: 400px;
@@ -59,6 +79,18 @@
     color: #262626;
     font-family: "Raleway", sans-serif;
     box-sizing: border-box;
+    @media screen and (max-width: 321px) {
+      width: 310px;
+      padding-left: 10px;
+      font-size: 17px;
+      margin-left: 5px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   p {
@@ -70,6 +102,15 @@
     position: absolute;
     margin-left: 322px;
     margin-top: 44px;
+    @media screen and (max-width: 321px) {
+      margin-left: 240px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   span.del {
@@ -83,6 +124,15 @@
     background-repeat: no-repeat;
     width: 462px;
     height: 527px;
+    @media screen and (max-width: 321px) {
+      display: none;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   .our {
@@ -93,7 +143,7 @@
     font-style: normal;
     text-align: center;
     letter-spacing: normal;
-    color: #ffffff;
+    color: black;
     position: absolute;
     margin-left: 612px;
   }
@@ -107,6 +157,28 @@
     &.domes {
       margin-left: 270px;
       margin-top: -84px;
+      @media screen and (max-width: 321px) {
+        margin-left: 210px;
+        background-color: black;
+        margin-top: -77px;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
+    }
+    @media screen and (max-width: 321px) {
+      margin-left: 210px;
+      background-color: black;
+      margin-top: -63px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
     }
   }
 

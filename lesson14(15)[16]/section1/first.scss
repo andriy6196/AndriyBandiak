@@ -19,7 +19,8 @@
     background-repeat: no-repeat;
     background-position: right 5px;
     @media screen and (max-width: 321px) {
-      background-position: bottom 20% right 40%;
+      background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+        url(../../section1/img1.png) center/cover no-repeat;
     }
     @media screen and (max-width: 481px) {
     }
@@ -89,6 +90,16 @@
     padding-left: 168px;
     padding-top: 320px;
     position: absolute;
+    @media screen and (max-width: 321px) {
+      padding-left: 15px;
+      text-align: left;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   button {
@@ -112,6 +123,16 @@
     margin-top: 430px;
     text-decoration: none;
     list-style: none;
+    @media screen and (max-width: 321px) {
+      margin-left: 60px;
+      margin-top: 500px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
 
     .buttonhref {
       text-decoration: none;
@@ -155,6 +176,8 @@
     background-image: radial-gradient(circle at 0 0, #00c4c4, #00b7b7, #00adad, #009c9c),
       linear-gradient(to bottom, #00c4c4, #00c4c4);
     height: 680px;
+    display: flex;
+    align-items: center;
   }
 
   .second_img {
@@ -164,7 +187,33 @@
     height: 630px;
     margin-left: 100px;
     padding-top: -30px;
-    display: none;
+    @media screen and (max-width: 321px) {
+      display: none;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
+  }
+
+  .text_about {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    @media screen and (max-width: 321px) {
+      padding-left: 5px;
+      display: flex;
+      width: 320px;
+      text-align: center;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   h3 {
@@ -177,9 +226,17 @@
     line-height: 0.3;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
-    padding-left: 800px;
-    padding-top: 180px;
+    color: white;
+    padding-top: 50px;
+    @media screen and (max-width: 321px) {
+      font-size: 70px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   .text2 {
@@ -191,10 +248,17 @@
     line-height: 1.59;
     letter-spacing: normal;
     text-align: left;
-    color: #ffffff;
-    padding-left: 800px;
-    position: absolute;
-    padding-top: 250px;
+    color: white;
+    padding-top: 130px;
+
+    @media screen and (max-width: 321px) {
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   .back-to-top {
@@ -259,7 +323,6 @@
     }
   }
   a {
-    float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
