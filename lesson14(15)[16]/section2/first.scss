@@ -9,6 +9,15 @@
     width: 100%;
     padding-top: 180px;
     height: 750px;
+    @media screen and (max-width: 321px) {
+      height: 600px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   /* box1 */
@@ -143,9 +152,20 @@
     font-style: normal;
     text-align: center;
     letter-spacing: normal;
-    color: black;
+    color: white;
     position: absolute;
     margin-left: 612px;
+    @media screen and (max-width: 321px) {
+      font-size: 60px;
+      margin-left: 10px;
+      margin-top: -340px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   hr {
@@ -188,6 +208,15 @@
     width: 100%;
     height: 1536px;
     background-color: #ffe92f;
+    @media screen and (max-width: 321px) {
+      height: 1570px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
 
     div.header {
       width: 600px;
@@ -197,6 +226,16 @@
       display: flex;
       justify-content: center;
       flex-direction: column;
+      @media screen and (max-width: 321px) {
+        display: flex;
+        width: 100%;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
 
       span.lorem1 {
         font-family: "Raleway", sans-serif;
@@ -222,6 +261,15 @@
         font-family: "Raleway", sans-serif;
         padding-bottom: 50px;
         margin-top: 40px;
+        @media screen and (max-width: 321px) {
+          font-size: 80px;
+        }
+        @media screen and (max-width: 481px) {
+        }
+        @media screen and (max-width: 901px) {
+        }
+        @media screen and (max-width: 1201px) {
+        }
       }
     }
 
@@ -230,18 +278,50 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      @media screen and (max-width: 321px) {
+        display: flex;
+        flex-direction: column;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.box2_1 {
       margin-top: 15px;
       padding-bottom: 24px;
+      @media screen and (max-width: 321px) {
+        margin-left: 50px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.box2_2 {
       margin: 0 auto;
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-item: center;
+      @media screen and (max-width: 321px) {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.photos {
@@ -252,14 +332,51 @@
       background: url(../../section2/photo1.png);
       width: 770px;
       height: 550px;
+      @media screen and (max-width: 321px) {
+        background: url(../../section2/photo_1.png);
+        width: 320px;
+        height: 231px;
+        margin: 0;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.photos_gallery2 {
       background: url(../../section2/photo2.png);
+      @media screen and (max-width: 321px) {
+        background: url(../../section2/photo_2.png);
+        width: 320px;
+        height: 231px;
+        margin: 0;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.photos_gallery3 {
       background: url(../../section2/photo3.png);
+      @media screen and (max-width: 321px) {
+        background: url(../../section2/photo_3.png);
+        width: 320px;
+        height: 226px;
+        margin: 0;
+        padding-bottom: -10px;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.size_photo {
@@ -267,19 +384,46 @@
       height: 262px;
       background-repeat: no-repeat;
       margin-top: 25px;
+      @media screen and (max-width: 321px) {
+        margin-top: 0px;
+        height: 230px;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
 
     div.photos_gallery4 {
       background: url(../../section2/photo4.png);
+      @media screen and (max-width: 321px) {
+        background: url(../../section2/photo_4.png) no-repeat;
+        width: 320px;
+        height: 230px;
+        margin: 0;
+      }
     }
 
     div.photos_gallery5 {
       background: url(../../section2/photo5.png);
+      @media screen and (max-width: 321px) {
+        background: url(../../section2/photo_5.png) no-repeat;
+        width: 320px;
+        height: 230px;
+        margin: 0;
+      }
     }
 
     div.size_photo4-5 {
       width: 570px;
       height: 400px;
+      @media screen and (max-width: 321px) {
+        width: 320px;
+        height: 230px;
+        margin: 0;
+      }
     }
 
     div.button {
@@ -310,6 +454,15 @@
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+    @media screen and (max-width: 321px) {
+      margin-top: -30px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
     &:hover {
       transform: scale(1.1);
       transition-duration: 1s;
@@ -323,9 +476,31 @@
     height: 500px;
     background: url(../../section2/blackcurrent_bg.png);
     margin: 0 auto;
+    @media screen and (max-width: 321px) {
+      background: none;
+      background-color: darkcyan;
+      width: 100%;
+      height: 450px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
     div.header_box3 {
       padding-left: 163px;
       padding-top: 145px;
+      @media screen and (max-width: 321px) {
+        padding-left: 13px;
+        padding-top: 20px;
+      }
+      @media screen and (max-width: 481px) {
+      }
+      @media screen and (max-width: 901px) {
+      }
+      @media screen and (max-width: 1201px) {
+      }
     }
   }
 
@@ -342,6 +517,15 @@
     text-align: left;
     color: #262626;
     margin-bottom: 34px;
+    @media screen and (max-width: 321px) {
+      color: white;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   span.text1 {
@@ -354,6 +538,16 @@
     letter-spacing: normal;
     text-align: left;
     color: #262626;
+    @media screen and (max-width: 321px) {
+      color: white;
+      text-align: center;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   /* input_email */
@@ -362,6 +556,20 @@
     padding-left: 163px;
     padding-top: 31px;
     display: flex;
+    @media screen and (max-width: 321px) {
+      padding-left: 0px;
+      padding-top: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   form input {
@@ -369,6 +577,16 @@
     width: 570px;
     height: 55px;
     font-size: 25px;
+    @media screen and (max-width: 321px) {
+      width: 290px;
+      border: none;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   :focus::-webkit-input-placeholder {
@@ -385,9 +603,9 @@
   }
 
   button.sub_button {
-    margin-left: 30px;
     background-color: #96b92c;
     border: none;
+    margin-top: 50px;
   }
 }
 
