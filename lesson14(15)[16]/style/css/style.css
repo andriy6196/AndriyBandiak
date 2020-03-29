@@ -627,6 +627,8 @@
   #section2 #gallery div.size_photo {
     margin-top: 0px;
     height: 230px;
+    width: 310px;
+    margin-left: -50px;
   }
 }
 #section2 #gallery div.photos_gallery4 {
