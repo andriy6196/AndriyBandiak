@@ -122,6 +122,16 @@
     width: 500px;
     display: flex;
     flex-direction: column;
+    @media screen and (max-width: 321px) {
+      width: 100%;
+      margin-left: 1px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 
   .form1 input {

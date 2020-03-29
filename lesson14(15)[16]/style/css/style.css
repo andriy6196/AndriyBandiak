@@ -357,6 +357,11 @@
   margin: 0 auto;
   align-items: center;
 }
+@media screen and (max-width: 321px) {
+  #section2 div.box1 {
+    width: 100%;
+  }
+}
 #section2 div.items {
   width: 400px;
   height: 100px;
@@ -1063,6 +1068,12 @@
   width: 500px;
   display: flex;
   flex-direction: column;
+}
+@media screen and (max-width: 321px) {
+  #section4 .form1 {
+    width: 100%;
+    margin-left: 1px;
+  }
 }
 #section4 .form1 input {
   width: 480px;
