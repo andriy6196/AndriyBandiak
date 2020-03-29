@@ -796,9 +796,14 @@
 #section2 button.sub_button {
   background-color: #96b92c;
   border: none;
-  margin-top: 50px;
+  margin-left: 20px;
 }
-
+@media screen and (max-width: 321px) {
+  #section2 button.sub_button {
+    margin-top: 50px;
+    margin-left: -5px;
+  }
+}
 /* OUT SERVICES */
 /* Container */
 #section3 {
@@ -1074,7 +1079,6 @@
 @media screen and (max-width: 321px) {
   #section4 .form1 {
     width: 100%;
-    margin-left: 1px;
   }
 }
 #section4 .form1 input {

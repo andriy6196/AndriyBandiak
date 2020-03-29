@@ -608,7 +608,17 @@
   button.sub_button {
     background-color: #96b92c;
     border: none;
-    margin-top: 50px;
+    margin-left: 20px;
+    @media screen and (max-width: 321px) {
+      margin-top: 50px;
+      margin-left: -5px;
+    }
+    @media screen and (max-width: 481px) {
+    }
+    @media screen and (max-width: 901px) {
+    }
+    @media screen and (max-width: 1201px) {
+    }
   }
 }
 
