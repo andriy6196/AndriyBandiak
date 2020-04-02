@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #9789f9;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+
+.ba-price__body {
+  padding: 113px 62px 40px;
+  text-align: left;
+  border: 0px solid transparent;
+  border-radius: 150px/100px 100px 0 0;
+  -moz-border-radius: 150px/100px 100px 0 0;
+  -webkit-border-radius: 150px/100px 100px 0 0;
+  font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+  font-size: 16px;
+}
+
+.ba-pricing {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.ba-pricing__col {
+  width: 327px;
+  box-shadow: 2.4px 4.4px 59px 0 #7a6be7;
+  padding: 20px 0;
+  text-align: center;
+  margin: 11px;
+  background-color: #f5f4f9;
+}
+
+.ba-pricing__col:first-child .ba-price__body {
+  background: url(/pricing/pricing/svg/palette.svg) no-repeat center 35px white;
+  background-size: 36px 36px;
+}
+
+.ba-pricing__col:last-child .ba-price__body {
+  background: url(/pricing/pricing/svg/hummer.svg) no-repeat center 35px white;
+  background-size: 36px 36px;
+}
+
+.ba-pricing__col:nth-child(2) .ba-price__body {
+  background: url(/pricing/pricing/svg/paint-bucket.svg) no-repeat center 35px white;
+  background-size: 36px 36px;
+}
+
+.ba-price__rate {
+  font-family: "bebas_neuethin", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.ba-price__position {
+  font-size: 24px;
+  font-family: "bebas_neue_regularregular", sans-serif;
+  letter-spacing: 1.92px;
+  margin: 0;
+  padding-top: 18px;
+  padding-bottom: 42px;
+}
+
+.buble {
+  position: absolute;
+  padding-left: 260px;
+  margin-top: -10px;
+}
+
+.popular {
+  position: absolute;
+  padding-left: 310px;
+  padding-top: 10px;
+  opacity: 0;
+}
+
+.popular:hover {
+  opacity: 1;
+  transition: ease-in 0.4s;
+}
+
+sup {
+  font-size: 24px;
+  position: relative;
+  top: -30px;
+}
+
+sub {
+  font-size: 16px;
+}
+
+.ba-button {
+  font-family: "bebas_neuebold", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: #ffffff;
+  width: 203px;
+  height: 54px;
+  border-radius: 27px;
+  box-shadow: 2.4px 4.4px 18px 0 rgba(253, 141, 123, 0.31);
+  background-color: #fd8d7b;
+  padding-top: 15px;
+}
+
+.ba-button:hover {
+  background-color: black;
+  transition: ease-in 0.4s;
+}
+
+.fir_third-btn {
+  background-color: #6fcffb;
+}
+
+.order_div {
+  margin-top: 40px;
+}
+.order {
+  font-size: 11px;
+  font-family: "Roboto", sans-serif;
+  color: #a9a9a9;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in, background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
