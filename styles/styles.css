@@ -10,6 +10,7 @@ body {
   padding: 0;
   background: linear-gradient(to bottom, #202020, #111119);
   font-family: "Montserrat", sans-serif;
+  overflow: scroll;
 }
 
 .rain {
