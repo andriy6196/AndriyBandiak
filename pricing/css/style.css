@@ -108,8 +108,9 @@ img {
 .popular {
   position: absolute;
   padding-left: 55px;
-  top: 5px;
+  top: 20px;
   opacity: 0;
+  z-index: 10;
 }
 
 .popular:hover {
