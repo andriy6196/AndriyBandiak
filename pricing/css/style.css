@@ -58,17 +58,17 @@ li {
 }
 
 .ba-pricing__col:first-child .ba-price__body {
-  background: url(/pricing/pricing/svg/palette.svg) no-repeat center 35px white;
+  background: url(/pricing/svg/palette.svg) no-repeat center 35px white;
   background-size: 36px 36px;
 }
 
 .ba-pricing__col:last-child .ba-price__body {
-  background: url(/pricing/pricing/svg/hummer.svg) no-repeat center 35px white;
+  background: url(/pricing/svg/hummer.svg) no-repeat center 35px white;
   background-size: 36px 36px;
 }
 
 .ba-pricing__col:nth-child(2) .ba-price__body {
-  background: url(/pricing/pricing/svg/paint-bucket.svg) no-repeat center 35px white;
+  background: url(/pricing/svg/paint-bucket.svg) no-repeat center 35px white;
   background-size: 36px 36px;
 }
 
