@@ -1547,3 +1547,7 @@ textarea {
   display: flex;
   justify-content: space-between;
 }
+#main .main__footer5 a:hover img.hover_icon {
+  transform: scale(1.5);
+  transition-duration: 1s;
+}
