@@ -1,7 +1,6 @@
 // =====================================
 //                 BODY
 // =====================================
-
 #main {
     .main__container {
         max-width: 1110px;
@@ -1118,6 +1117,10 @@
             width: 170px;
             display: flex;
             justify-content: space-between;
+        }
+        a:hover img.hover_icon {
+            transform: scale(1.5);
+            transition-duration: 1s;
         }
     }
 }
