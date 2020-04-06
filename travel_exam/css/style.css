@@ -1005,7 +1005,6 @@ textarea {
   }
   #main .nav > #nav-check:checked ~ .nav-links {
     height: calc(180px - 50px);
-    overflow-y: auto;
   }
 }
 #main .main__block2 {
