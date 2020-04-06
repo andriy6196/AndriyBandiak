@@ -69,6 +69,7 @@
             :focus:-ms-input-placeholder {
                 color: transparent;
             }
+
             .search-form {
                 padding: 1px 1px;
                 width: 650px;
@@ -243,7 +244,6 @@
         }
         .nav > #nav-check:checked ~ .nav-links {
             height: calc(180px - 50px);
-            overflow-y: auto;
         }
     }
     .main__block2 {
