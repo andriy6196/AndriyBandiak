@@ -57,7 +57,7 @@ function perfectNumber() {
 }
 console.log(perfectNumber(digit));
 
-function digit() {
+function digitTwo() {
     let a = prompt('Enter number');
 
     function perfectNumber(a) {
@@ -74,8 +74,8 @@ function digit() {
             console.log(`This digit is not perfect: ${a}`)
     }
     perfectNumber(a);
-}
-digit();
+};
+digitTwo();
 
 
 function task6() {
