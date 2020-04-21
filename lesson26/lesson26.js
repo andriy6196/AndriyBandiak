@@ -1,38 +1,38 @@
-// ======================================
-//                 TASK1
-// ======================================
+// // ======================================
+// //                 TASK1
+// // ======================================
 
-let car = {
-    manufacturer: 'Renault',
-    model: 'Koleos',
-    yearOfIssue: 2019,
-    averageSpeed: 100   //('km/hour')
-}
+// let car = {
+//     manufacturer: 'Renault',
+//     model: 'Koleos',
+//     yearOfIssue: 2019,
+//     averageSpeed: 100   //('km/hour')
+// }
 
-function myCar() {
-    let myCar =
-        `manufacturer: ${car.manufacturer}
-model: ${car.model} 
-year: ${car.yearOfIssue} 
-average speed: ${car.averageSpeed} km/hour `
+// function myCar() {
+//     let myCar =
+//         `manufacturer: ${car.manufacturer}
+// model: ${car.model} 
+// year: ${car.yearOfIssue} 
+// average speed: ${car.averageSpeed} km/hour `
 
-    console.log(myCar);
+//     console.log(myCar);
 
-};
+// };
 
-myCar();
+// myCar();
 
-let transmitteDistance = Number(prompt('Write your distance in kilometers '));
-function necessaryTime() {
-    let kilometersRemaining = transmitteDistance % car.averageSpeed;
-    let hours = (transmitteDistance - kilometersRemaining) / car.averageSpeed;
-    let timesOut = (hours - (hours % 4)) / 4
-    let minutes = Math.round(kilometersRemaining * 60 / car.averageSpeed);
+// let transmitteDistance = Number(prompt('Write your distance in kilometers '));
+// function necessaryTime() {
+//     let kilometersRemaining = transmitteDistance % car.averageSpeed;
+//     let hours = (transmitteDistance - kilometersRemaining) / car.averageSpeed;
+//     let timesOut = (hours - (hours % 4)) / 4
+//     let minutes = Math.round(kilometersRemaining * 60 / car.averageSpeed);
 
-    console.log(`${hours + timesOut} hours and ${minutes} minutes`);
-}
+//     console.log(`${hours + timesOut} hours and ${minutes} minutes`);
+// }
 
-necessaryTime();
+// necessaryTime();
 
 
 // ======================================
@@ -140,47 +140,47 @@ function reductionsTwo() {
 
 reductionsTwo();
 
-// ======================================
-//                 TASK3
-// ======================================
+// // ======================================
+// //                 TASK3
+// // ======================================
 
 
-let myDate = new Date();
-ojk3 = {
-    hours: myDate.getHours(),
-    minutes: myDate.getMinutes(),
-    sec: myDate.getSeconds()
-}
+// let myDate = new Date();
+// ojk3 = {
+//     hours: myDate.getHours(),
+//     minutes: myDate.getMinutes(),
+//     sec: myDate.getSeconds()
+// }
 
 
-function time1() {
-    console.log(ojk3);
-}
-time1();
+// function time1() {
+//     console.log(ojk3);
+// }
+// time1();
 
 
-function time2() {
-    let inputSeconds = Number(prompt(`Seconds`));
-    let result = ojk3.sec + inputSeconds;
-    myDate.setSeconds(result);
-    console.log(myDate);
-}
-time2();
+// function time2() {
+//     let inputSeconds = Number(prompt(`Seconds`));
+//     let result = ojk3.sec + inputSeconds;
+//     myDate.setSeconds(result);
+//     console.log(myDate);
+// }
+// time2();
 
-function time3() {
-    let inputMinutes = Number(prompt(`Minutes`));
-    let result = ojk3.minutes + inputMinutes;
-    myDate.setMinutes(result);
-    console.log(myDate);
-}
-time3();
+// function time3() {
+//     let inputMinutes = Number(prompt(`Minutes`));
+//     let result = ojk3.minutes + inputMinutes;
+//     myDate.setMinutes(result);
+//     console.log(myDate);
+// }
+// time3();
 
-function time4() {
-    let inputHours = Number(prompt(`Hours`));
-    let result = ojk3.hours + inputHours;
-    myDate.setHours(result);
-    console.log(myDate);
-}
-time4();
+// function time4() {
+//     let inputHours = Number(prompt(`Hours`));
+//     let result = ojk3.hours + inputHours;
+//     myDate.setHours(result);
+//     console.log(myDate);
+// }
+// time4();
 
 
