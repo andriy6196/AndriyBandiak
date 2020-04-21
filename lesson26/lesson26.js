@@ -96,10 +96,8 @@ function subtraction() {
 }
 
 function commonFactor() {
-    let firstNumber = Number(prompt(`First num `));
-    let secondNumber = Number(prompt(`Second num `));
-    firstNumber = obj1.numb1;
-    secondNumber = obj1.numb2;
+    let firstNumber = obj1.numb1;
+    let secondNumber = obj1.numb2;
     while (firstNumber != secondNumber) {
         if (firstNumber > secondNumber)
             firstNumber = firstNumber - secondNumber
@@ -109,13 +107,19 @@ function commonFactor() {
     return firstNumber;
 }
 
-let commonFactor = commonFactor();
+let factorCommon = commonFactor();
+console.log(factorCommon);
+
+function reductions() {
+    let reductionsOne = (`${obj1.numb1 / factorCommon} / ${obj1.numb2 / factorCommon}`)
+    console.log(reductionsOne);
+}
+
+reductions();
 
 function commonFactorTwo() {
-    let firstNumber = Number(prompt(`First num `));
-    let secondNumber = Number(prompt(`Second num `));
-    firstNumber = obj2.numb1;
-    secondNumber = obj2.numb2;
+    let firstNumber = obj2.numb1;
+    let secondNumber = obj2.numb2;
     while (firstNumber != secondNumber) {
         if (firstNumber > secondNumber)
             firstNumber = firstNumber - secondNumber
@@ -126,8 +130,15 @@ function commonFactorTwo() {
 }
 
 
-let commonFactorTwo = commonFactorTwo();
+let factorCommonTwo = commonFactorTwo();
+console.log(factorCommonTwo);
 
+function reductionsTwo() {
+    let reductionSecond = (`${obj2.numb1 / factorCommonTwo} / ${obj2.numb2 / factorCommonTwo}`)
+    console.log(reductionSecond);
+}
+
+reductionsTwo();
 
 // // ======================================
 // //                 TASK3
@@ -171,4 +182,5 @@ let commonFactorTwo = commonFactorTwo();
 //     console.log(myDate);
 // }
 // time4();
+
 
