@@ -163,17 +163,44 @@ function calcAverageCost(array) {
 //                 TASK3
 // ======================================
 
+let cssStyleList = [{
+    name: "color",
+    value: 'black'
+}, {
+    name: "font-size",
+    value: '16px'
+}, {
+    name: "text-align",
+    value: 'left'
+}, {
+    name: "text-decoration",
+    value: 'underline'
+}];
+
+console.log(cssStyleList);
+
+let textUser = "Some Text";
 
 
+function addStyle(array, text) {
+    let cssStyleListString = [' style="']
+    for (pos in array) {
+        cssStyleListString += toStr(array[pos]);
+    }
+    cssStyleListString += '"';
+    let textArr = "<p>" + text + "</p>";
+    textArr = textArr.split('');
+    textArr.splice(2, 0, cssStyleListString);
+    textArr = textArr.join('');
+    document.write(textArr);
+}
 
+addStyle();
 
-
-
-
-
-
-
-
+function toStr(item) {
+    return `${item.name}: ${item.value}; `
+}
+toStr(cssStyleList);
 
 
 
@@ -182,3 +209,122 @@ function calcAverageCost(array) {
 // ======================================
 //                 TASK4
 // ======================================
+
+
+
+// ---------------------------------------
+//  Create an array of academy audiences:
+// ---------------------------------------
+
+
+// --------------------------
+//  1.Display all audiences:
+// --------------------------
+
+let lectureHall = [{
+    nameLectureHall: "a402",
+    seats: 20,
+    faculty: "IT"
+}, {
+    nameLectureHall: "b302",
+    seats: 15,
+    faculty: "VNG"
+}, {
+    nameLectureHall: "c108",
+    seats: 17,
+    faculty: "NB"
+}, {
+    nameLectureHall: "r106",
+    seats: 10,
+    faculty: "IT"
+}, {
+    nameLectureHall: "b502",
+    seats: 20,
+    faculty: "VNG"
+}];
+
+//one  group as example
+let grop = {
+    name: "biology",
+    numberOfStudents: 20,
+    faculty: "VNG"
+};
+
+
+
+// ----------------------------------------------
+//  2.Display audiences for a specified faculty:
+// ----------------------------------------------
+
+
+function showDirectHall(faculty) {
+    console.log(`Aудитории для указанного факультета:`);
+    let j = 1;
+    for (let i of lectureHall) {
+        if (i.faculty == faculty) {
+            console.log(` ${j}. ${i.nameLectureHall}`);
+            j++;
+        }
+    }
+};
+
+
+
+// -----------------------------------------------------------------------------
+//  3.Display only those audiences that are suitable for the transferred group:
+// -----------------------------------------------------------------------------
+
+
+function lectureForGroup(objGroup) {
+    for (let i of lectureHall) {
+        if (i.seats >= objGroup.numberOfStudents) {
+            console.log(`${i.nameLectureHall} lecture hall with ${i.seats} seats is good for group`)
+        }
+    }
+};
+
+
+// -------------------------------------------------------------
+//  4.The function of sorting audiences by the number of seats:
+// -------------------------------------------------------------
+
+
+function sortLectureHall(array) {
+    array.sort(function (a, b) {
+        if (a.seats > b.seats) {
+            return 1;
+        }
+        if (a.seats < b.seats) {
+            return -1;
+        }
+        // a должно быть равным b
+        return 0;
+    });
+
+    array.forEach(element => {
+        console.log(element)
+    });
+};
+
+
+// ---------------------------------------------------------------
+//  5.The function of sorting audiences by name (alphabetically):
+// ---------------------------------------------------------------
+
+function sortNameInArray(array) {
+    array.sort(function (a, b) {
+        if (a.nameLectureHall > b.nameLectureHall) {
+            return 1;
+        }
+        if (a.nameLectureHall < b.nameLectureHall) {
+            return -1;
+        }
+        return 0;
+    });
+
+    array.forEach(element => {
+        console.log(element)
+    });
+};
+
+
