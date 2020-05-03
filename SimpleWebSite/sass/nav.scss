@@ -6,6 +6,9 @@
         width: 153px;
         height: 65px;
         position: absolute;
+        @media screen and (max-width: 1193px) {
+            margin-left: 30px;
+        }
     }
     .topnav {
         display: flex;
@@ -87,22 +90,17 @@
             margin: 6px 0;
             transition: 0.4s;
         }
-
-        // .change .bar1 {
-        //     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-        //     transform: rotate(-45deg) translate(-9px, 6px);
-        // }
-
-        // .change .bar2 {
-        //     opacity: 0;
-        // }
-
-        // .change .bar3 {
-        //     -webkit-transform: rotate(45deg) translate(-8px, -8px);
-        //     transform: rotate(45deg) translate(-8px, -8px);
-        // }
     }
     .technology {
+        @media screen and (max-width: 1193px) {
+            padding-left: 30px;
+        }
+        @media screen and (max-width: 650px) {
+            text-align: center;
+        }
+        @media screen and (max-width: 650px) {
+            padding-left: 0px;
+        }
         padding-top: 215px;
         color: white;
         .techWeb {
@@ -128,6 +126,11 @@
                 color: black;
                 transition-duration: 0.5s;
             }
+        }
+    }
+    @media screen and (max-width: 650px) {
+        .technology {
+            padding-top: 289.5px;
         }
     }
 }

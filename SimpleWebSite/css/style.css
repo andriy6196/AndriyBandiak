@@ -9,6 +9,11 @@
   height: 65px;
   position: absolute;
 }
+@media screen and (max-width: 1193px) {
+  #section_one .logo1 {
+    margin-left: 30px;
+  }
+}
 #section_one .topnav {
   display: flex;
   flex-direction: row;
@@ -90,6 +95,21 @@
   padding-top: 215px;
   color: white;
 }
+@media screen and (max-width: 1193px) {
+  #section_one .technology {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 650px) {
+  #section_one .technology {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 650px) {
+  #section_one .technology {
+    padding-left: 0px;
+  }
+}
 #section_one .technology .techWeb {
   padding-bottom: 40px;
   font-size: 50px;
@@ -113,6 +133,112 @@
   background-color: white;
   color: black;
   transition-duration: 0.5s;
+}
+@media screen and (max-width: 650px) {
+  #section_one .technology {
+    padding-top: 289.5px;
+  }
+}
+
+#section_two .what_we_do {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 205px;
+}
+#section_two .what_we_do .img_whatwe {
+  background: url(../img/what_we_do.jpg) no-repeat;
+  margin-top: 116px;
+  width: 606px;
+  height: 518px;
+}
+@media screen and (max-width: 1167px) {
+  #section_two .what_we_do .img_whatwe {
+    background: url(../img/what_we_do_950.jpg) no-repeat;
+    width: 426px;
+    height: 366px;
+    margin-left: 50px;
+  }
+}
+@media screen and (max-width: 1085px) {
+  #section_two .what_we_do .img_whatwe {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 434px) {
+  #section_two .what_we_do .img_whatwe {
+    background: url(../img/what_we_do_434.jpg) no-repeat;
+    width: 236px;
+    height: 202px;
+    margin-top: 50px;
+  }
+}
+#section_two .what_text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 200px;
+}
+#section_two .what_text .what_h2 {
+  padding-bottom: 42px;
+  font-size: 36px;
+  color: #4b4b4d;
+}
+@media screen and (max-width: 560px) {
+  #section_two .what_text .what_h2 {
+    font-size: 25px;
+  }
+}
+#section_two .what_text .p_what {
+  padding-bottom: 50px;
+  line-height: 1.5;
+  text-align: center;
+}
+@media screen and (max-width: 560px) {
+  #section_two .what_text .p_what {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 515px) {
+  #section_two .what_text .p_what {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 447px) {
+  #section_two .what_text .p_what {
+    font-size: 12px;
+  }
+}
+#section_two .what_text .learn_more {
+  width: 183px;
+  height: 55px;
+  border-radius: 27.5px;
+  background-color: #4b4b4d;
+  border: none;
+  color: white;
+}
+#section_two .what_text .learn_more:hover {
+  background-color: #16c2a3;
+  color: white;
+  transition-duration: 0.5s;
+}
+@media screen and (max-width: 1187px) {
+  #section_two .what_we_do {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 1085px) {
+  #section_two .what_we_do {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #section_two .what_text {
+    padding-top: 20px;
+  }
+  #section_two .img_whatwe {
+    margin: 0px;
+  }
 }
 
 *,

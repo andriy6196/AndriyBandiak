@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: darkslateblue;
+}
+
+#container {
+  padding-top: 30px;
+}
+#container .taskOne {
+  padding-bottom: 30px;
+}
+#container .tasks {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+  color: wheat;
+}
+#container ul {
+  border: 3px solid darkcyan;
+  width: 40%;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  margin-bottom: 30px;
+}
+#container ul li {
+  padding-top: 10px;
+  list-style: none;
+  color: white;
+  text-align: center;
+}
+#container .btnOne {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0 15px 0;
+}
+#container #filter {
+  background-color: rgba(0, 0, 0, 0.95);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  display: none;
+}
+#container .container3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#container .container3 .taskTwo {
+  padding-bottom: 10px;
+}
+#container .openBtn {
+  color: white;
+  background-color: darkviolet;
+  border: none;
+  padding: 15px 50px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.44);
+}
+#container .openBtn:hover {
+  background-color: darkmagenta;
+  transition-duration: 0.5s;
+}
+#container #modal_form {
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  transform: translate(0, 25%);
+  display: none;
+}
+#container #modal_form .naruto {
+  width: 604px;
+  height: 413px;
+  background: url(../img/naruto.jpg) no-repeat center/cover;
+  margin: 0 auto;
+}
+#container #modal_form .naruto .numberSeven {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  transform: translate(0, 350px);
+}
+#container .close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+#container .close:hover,
+#container .close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+#container .taskThree {
+  padding: 30px 0 30px 0;
+}
+#container .wrapper {
+  background: #333;
+  width: 150px;
+  height: 440px;
+  border-radius: 10px;
+  font-size: 70px;
+  text-align: center;
+  padding: 1px 0;
+  border: 6px solid #000;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+#container .wrapper .circle {
+  background: #666;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-left: 9px;
+  margin-top: 17px;
+  line-height: 120px;
+  transition: background-color 0.5s ease-out;
+}
+#container .wrapper .circleBGColor1 {
+  background-color: #f00;
+  opacity: 0.5;
+}
+#container .wrapper .circleBGColor2 {
+  background-color: #ff0;
+  opacity: 0.5;
+}
+#container .wrapper .circleBGColor3 {
+  background-color: #0f0;
+  opacity: 0.5;
+}
+#container .wrapper .active {
+  opacity: 1;
+}
+#container .btnColor {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+}
