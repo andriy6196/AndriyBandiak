@@ -241,6 +241,38 @@
   }
 }
 
+#section_three .services {
+  text-align: center;
+  padding-bottom: 41px;
+  font-size: 36px;
+  color: #4b4b4d;
+}
+#section_three .p_services {
+  text-align: center;
+  padding-bottom: 101px;
+  color: #4b4b4d;
+  line-height: 1.56;
+}
+#section_three .sers {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+#section_three .blocks {
+  width: 370px;
+  height: 361px;
+  border: 2px solid;
+  border-image-source: linear-gradient(45deg, #008f68, #fae042);
+  border-image-slice: 1;
+  margin: 0 31px 56px 0;
+}
+#section_three .block4 {
+  width: 370px;
+  height: 361px;
+  margin: 0 31px 56px 0;
+  background: url(../img/service_4.jpg);
+}
+
 *,
 *::before,
 *::after {
