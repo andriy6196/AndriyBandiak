@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+#container {
+    background: url(../img/BG.jpg) center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.main {
+    width: 600px;
+    height: 541px;
+    box-shadow: 0px 23px 57px 0 rgba(0, 0, 0, 0.4);
+    background-color: #212534;
+    margin: 0 auto;
+}
+
+.main__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #2b3040;
+    height: 115px;
+    align-items: center;
+}
+
+.icon {
+    display: block;
+    fill: #bdc3c7;
+    opacity: 0.7;
+    margin: 0 auto 15px;
+    transition: all 0.2s;
+}
+.icon_information {
+    margin: 0 auto 10px;
+}
+.icon_rating {
+    margin: 0 auto 12px;
+}
+.icon_where-buy {
+    margin: 0 auto 13px;
+}
+
+.link:link,
+.link:visited {
+    display: block;
+    color: #b7bacd;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+.link:hover,
+.link:active {
+    color: #fff;
+}
+.link:hover .icon,
+.link:active .icon {
+    fill: #fff;
+    opacity: 1;
+}
+
+.active-tab {
+    position: relative;
+}
+.active-tab .link {
+    color: #fbfbfb;
+}
+.active-tab ::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 148px;
+    height: 2px;
+    background-color: #fff;
+}
+.active-tab .icon {
+    fill: #fff;
+    opacity: 1;
+}
+
+#main__content {
+    padding: 72px 65px 47px 42px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content_far-cry {
+    padding-right: 41px;
+}
+
+.far_img {
+    background-image: url(../img/cover.jpg);
+    width: 160px;
+    height: 230px;
+}
+
+.stars {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 26px;
+}
+
+.star {
+    background-image: url(../img/star.jpg);
+    width: 20px;
+    height: 19px;
+    background-repeat: no-repeat;
+}
+
+.star:hover {
+    background-image: url(../img/star_2.jpg);
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.text_far {
+    color: white;
+    padding-bottom: 30px;
+    font-size: 14px;
+}
+
+.text_far_sec {
+    line-height: 1.57;
+    font-size: 14px;
+    color: #b7bacd;
+}
+
+.content_far-cry_buy {
+    position: relative;
+}
+
+.score {
+    background-image: url(../img/score.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 72px;
+    height: 73px;
+    transform: translate(221px, -62px);
+}
+
+.offer {
+    padding-top: 65px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fedc3f;
+    padding-bottom: 8px;
+}
+
+.price {
+    font-size: 32px;
+    line-height: 0.63;
+    color: #ffffff;
+}
+
+button {
+    transform: translate(130px, -45px);
+    border-radius: 2px;
+    background-color: #13e28d;
+    width: 164px;
+    height: 55px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background-color: #0fb370;
+}
+
+#ratings_info {
+    background: url(../img/naruto.jpg) center/cover no-repeat;
+    width: 600px;
+    height: 420px;
+}
+
+#where_to_buy {
+    background: url(../img/boruto.jpg) center/cover no-repeat;
+    width: 600px;
+    height: 420px;
+}
+
+.calc {
+    padding-top: 10px;
+}
+
+.calc:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}

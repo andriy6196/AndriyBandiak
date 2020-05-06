@@ -3,6 +3,7 @@
 // ======================================
 document.body.addEventListener("keydown", (event) => {
     const resizer = document.createElement("div");
+
     if ((event.code === "KeyE" || event.code === "Comma") && event.ctrlKey) {
         event.returnValue = false;
         let elem = document.querySelector(".content__textarea");
@@ -13,15 +14,16 @@ document.body.addEventListener("keydown", (event) => {
             newEl.className = "content__textarea";
             newEl.textContent = elem.textContent;
             elem.replaceWith(newEl);
-        } else if (event.code === "Comma" && elem.nodeName === "TEXTAREA") {
-            event.preventDefault();
-            let newEl = document.createElement("div");
-            newEl.className = "content__textarea";
-            newEl.textContent = elem.value;
-            resizer.className = "content__textarea--resizer";
-
         }
+    } else if (event.keyCode === 187 && event.ctrlKey) {
+        event.preventDefault();
+        let newEl = document.createElement("div");
+        newEl.className = "content__textarea";
+        newEl.textContent = elem.value;
+        resizer.className = "content__textarea--resizer";
+
     }
+
 });
 
 
