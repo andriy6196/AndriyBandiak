@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,600,700&display=swap");
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bgLine.png);
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 2550px;
+    margin: 65px auto 130px;
+}
+
+header {
+    position: relative;
+    width: 1050px;
+    margin: 0 auto 90px;
+}
+
+header::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -27px;
+    right: 125px;
+    width: 30px;
+    height: 30px;
+    background: center no-repeat url(../img/iconPlus.png);
+}
+
+header::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 58%;
+    left: -83px;
+    width: 44px;
+    height: 44px;
+    background: center no-repeat url(../img/iconTriangle.png);
+}
+
+.fet_work {
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #303030;
+}
+
+h1 {
+    font-size: 86px;
+    line-height: 1.05;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #000;
+}
+
+.slider {
+    position: relative;
+    margin-left: 136px;
+}
+.slide {
+    margin-right: 44px;
+    position: relative;
+}
+.slide:hover .text {
+    opacity: 1;
+    visibility: visible;
+}
+.slide:hover .img {
+    opacity: 0.1;
+}
+.bg_sl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1bf1ad;
+    z-index: -5;
+}
+.img {
+    transition: all 0.3s;
+}
+.text {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    bottom: 37px;
+    left: 30px;
+    transition: all 0.3s;
+}
+.author {
+    margin-top: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.slick-prev,
+.slick-next {
+    border: none;
+    outline: none;
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 96px;
+    height: 96px;
+    cursor: pointer;
+    padding: 0;
+    font-size: 0px;
+    color: transparent;
+    transition: all 0.3s;
+}
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    opacity: 0.5;
+}
+
+.slick-prev {
+    left: -116px;
+    background: center no-repeat url(../img/prevArrow.png);
+    z-index: 10;
+}
+
+.slick-next {
+    right: 20px;
+    background: center no-repeat url(../img/nextArrow.png);
+    z-index: 10;
+}
+
+.apex {
+    font-size: 28px;
+    line-height: 0.86;
+    letter-spacing: 6.3px;
+    text-transform: uppercase;
+    color: #fff;
+}
