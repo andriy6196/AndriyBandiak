@@ -1,6 +1,6 @@
 function initMap() {
-    var pos = { lat: 48.923348, lng: 24.710384 };
-    var opt = {
+    const pos = { lat: 48.923348, lng: 24.710384 };
+    const opt = {
         center: pos,
         zoom: 15,
         styles: [
@@ -83,25 +83,48 @@ function initMap() {
                 stylers: [{ color: '#17263c' }]
             }
         ]
-
     }
-
-    var myMap = new google.maps.Map(document.getElementById("map"), opt);
-    var marker = new google.maps.Marker({
+    const myMap = new google.maps.Map(document.getElementById("map"), opt);
+    const marker = new google.maps.Marker({
         position: pos,
         map: myMap,
         title: "Ти навів на мене",
         icon: 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png',
-        animation: google.maps.Animation.DROP,
+        animation: google.maps.Animation.BOUNCE,
     });
-    marker.addListener("click", toggleBounce);
 
-}
+    const infowindow = new google.maps.InfoWindow({
+        content: 'Це моє місто'
+    });
 
-function toggleBounce() {
-    if (marker.getAnimation() !== null) {
-        marker.setAnimation(null);
-    } else {
-        marker.setAnimation(google.maps.Animation.BOUNCE);
+    google.maps.event.addListener(marker, 'click', function () {
+        console.log('click');
+        infowindow.open(myMap, marker);
+    });
+
+    const directionsService = new google.maps.DirectionsService();
+    const directionsRenderer = new google.maps.DirectionsRenderer();
+    directionsRenderer.setMap(myMap);
+    const onChangeHandler = function () {
+        calculateAndDisplayRoute(directionsService, directionsRenderer);
+    };
+    document.getElementById('start').addEventListener('change', onChangeHandler);
+    document.getElementById('end').addEventListener('change', onChangeHandler);
+
+    function calculateAndDisplayRoute(directionsService, directionsRenderer) {
+        directionsService.route(
+            {
+                origin: { query: document.getElementById('start').value },
+                destination: { query: document.getElementById('end').value },
+                travelMode: 'DRIVING'
+            },
+            function (response, status) {
+                if (status === 'OK') {
+                    directionsRenderer.setDirections(response);
+                } else {
+                    window.alert('Directions request failed due to ' + status);
+                }
+            });
     }
 }
+
