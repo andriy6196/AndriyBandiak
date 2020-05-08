@@ -1,4 +1,5 @@
 #section_three {
+    padding-bottom: 200px;
     .services {
         text-align: center;
         padding-bottom: 41px;
@@ -7,14 +8,17 @@
     }
     .p_services {
         text-align: center;
-        padding-bottom: 101px;
         color: #4b4b4d;
         line-height: 1.56;
+        padding: 0 10px 101px;
+        @media screen and (max-width: 725px) {
+            font-size: 13px;
+        }
     }
     .sers {
         display: flex;
+        flex-flow: row wrap;
         justify-content: center;
-        flex-direction: row;
     }
     .blocks {
         width: 370px;
@@ -22,12 +26,130 @@
         border: 2px solid;
         border-image-source: linear-gradient(45deg, rgb(0, 143, 104), rgb(250, 224, 66));
         border-image-slice: 1;
-        margin: 0 31px 56px 0;
+        margin: 0 20px 56px 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        @media screen and (max-width: 1124px) {
+            margin: 0 5px 56px 0;
+        }
+        @media screen and (max-width: 739px) {
+            margin: 0 0 56px 0;
+        }
+        @media screen and (max-width: 550px) {
+            border: none;
+        }
+        .service_icon {
+            padding: 45px 0 32px 0;
+        }
+        .ser_text {
+            padding-bottom: 20px;
+            font-size: 18px;
+            font-weight: 500;
+            color: #4b4b4d;
+        }
+        .ser_lorem {
+            text-align: center;
+            color: #4b4b4d;
+            line-height: 1.56;
+            font-size: 14px;
+            padding-left: 32px;
+            padding-right: 32px;
+        }
     }
     .block4 {
         width: 370px;
         height: 361px;
-        margin: 0 31px 56px 0;
+        margin: 0 20px 56px 0;
         background: url(../img/service_4.jpg);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        @media screen and (max-width: 1124px) {
+            margin: 0 5px 56px 0;
+        }
+        @media screen and (max-width: 739px) {
+            margin: 0 0 56px 0;
+        }
+        .block4_p {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 500;
+            padding: 92px 0 17px 0;
+        }
+        .block4_stay {
+            color: #ffffff;
+            text-align: center;
+            padding: 0 63px 0 53px;
+            line-height: 1.56;
+            font-size: 14px;
+            font-weight: normal;
+            padding-bottom: 31px;
+        }
+        .email_form {
+            width: 322px;
+            height: 60px;
+            border-radius: 30px;
+            border: solid 1px #dcdcdf;
+            background-color: #fafafa;
+            padding-left: 15px;
+            input::-webkit-input-placeholder {
+                color: rgba(75, 75, 77, 0.6);
+            }
+            input#email {
+                border: none;
+                padding-left: 10px;
+                background-color: #fafafa;
+            }
+            .subcr {
+                border: none;
+                background-color: #fafafa;
+                padding-top: 20px;
+                color: #4b4b4d;
+                font-weight: 500;
+            }
+        }
+    }
+    .btn_black {
+        width: 183px;
+        height: 55px;
+        border-radius: 27.5px;
+        background-image: linear-gradient(to top, #04c2a8, #fec667);
+        border: none;
+        color: white;
+        cursor: pointer;
+        position: absolute;
+        transform: translate(0, 330px);
+        transition: all 0.3s;
+        text-transform: uppercase;
+        &:hover {
+            background: rgb(75, 75, 77);
+            background: linear-gradient(
+                90deg,
+                rgba(75, 75, 77, 1) 100%,
+                rgba(75, 75, 77, 1) 100%,
+                rgba(75, 75, 77, 1) 100%
+            );
+            box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+            transform: translateY(325px);
+        }
+        &:active {
+            transform: translateY(332px);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+        }
     }
 }
+
+// .card__btn-buy:hover {
+//     transform: translateY(-4px);
+//     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
+//     background-color: #12d484;
+//     color: #f2f2f2;
+//   }
+//   .card__btn-buy:active {
+//     transform: translateY(3px);
+//     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+//     background-color: #0fb370;
+//     color: #e6e6e6;
+//   }

@@ -52,7 +52,17 @@
                             their needs and integrate multiple platforms to create a <br> custom solution. </p>
                         <button class="learn_more">Learn More</button>
                     </div>
-                    </>
+                    <svg style="visibility: hidden; position: absolute;" width="0" height="0"
+                        xmlns="http://www.w3.org/2000/svg" version="1.1">
+                        <defs>
+                            <filter id="goo">
+                                <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+                                <feColorMatrix in="blur" mode="matrix"
+                                    values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+                            </filter>
+                        </defs>
+                    </svg>
                 </div>
         </section>
         <section id="section_three">
@@ -62,19 +72,92 @@
                     the market, <br>
                     combining ease of use, performance and flexibility with out of the box integration with all
                     major<br>accounting and ERP platforms. </p>
-                <div class="first_ser sers">
+                <div class="sers">
                     <div class="block1 blocks">
-                        <img src="img/service_1.jpg" alt="service1">
+                        <img class="service_icon" src="img/service_1.jpg" alt="service1">
+                        <p class="ser_text">Network & Security Engineering</p>
+                        <p class="ser_lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            industry's standard a type specimen book</p>
+                        <button class="btn_black">Learn More</button>
                     </div>
-                    <div class="block2 blocks"></div>
-                    <div class="block3 blocks"></div>
-                </div>
-                <div class="second_ser sers">
-                    <div class="block4"></div>
-                    <div class="block5 blocks"></div>
-                    <div class="block6 blocks"></div>
+                    <div class="block2 blocks">
+                        <img class="service_icon" src="img/service_2.jpg" alt="service2">
+                        <p class="ser_text">Server & Storage Management</p>
+                        <p class="ser_lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            industry's standard a type specimen book</p>
+                        <button class="btn_black">Learn More</button>
+                    </div>
+                    <div class="block3 blocks">
+                        <img class="service_icon" src="img/service_3.png" alt="service3">
+                        <p class="ser_text">Hardware & Software Installations</p>
+                        <p class="ser_lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            industry's standard a type specimen book</p>
+                        <button class="btn_black">Learn More</button>
+                    </div>
+                    <div class="block4">
+                        <p class="block4_p">Join & Stay Connect</p>
+                        <p class="block4_stay">Stay updated with the latest news,
+                            stories and discounts.
+                        </p>
+                        <div class="email_form">
+                            <input type="email" name="email" id="email" placeholder="Email">
+                            <button class="subcr">SUBSCRIBE</button>
+                        </div>
+                    </div>
+                    <div class="block5 blocks">
+                        <img class="service_icon" src="img/service_5.png" alt="service5">
+                        <p class="ser_text">Cloud Solutions</p>
+                        <p class="ser_lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            industry's standard a type specimen book</p>
+                        <button class="btn_black">Learn More</button>
+                    </div>
+                    <div class="block6 blocks">
+                        <img class="service_icon" src="img/service_6.jpg" alt="service6">
+                        <p class="ser_text">Hosted Email & Collaboration Suites</p>
+                        <p class="ser_lorem">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            industry's standard a type specimen book</p>
+                        <button class="btn_black">Learn More</button>
+                    </div>
                 </div>
             </div>
+        </section>
+        <section id="section_four">
+            <div class="container container_why_choose_us">
+                <div class="why_choose_us">
+                    <p class="why_choose">Why Choose Us</p>
+                    <h2 class="why_choose_h2">Make Life With Bright JH</h2>
+                    <p class="why_choose_lorem">Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has beenthe industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type
+                        and scrambled it to make a type specimen book.</p>
+                    <button class="why_choose_btn why_choose_btn_first">SIGN UP FREE</button>
+                    <button class="why_choose_btn why_choose_btn_sec">WATCH VIDEO</button>
+                </div>
+                <div class="dates">
+                    <div class="numbers_company numbers_companys">
+                        <p class="numbers">20</p>
+                        <p class="p_dates">EMPLOYEES</p>
+                    </div>
+                    <div class="numbers_company_2 numbers_companys">
+                        <p class="numbers">220</p>
+                        <p class="p_dates">PROJECT</p>
+                    </div>
+                    <div class="numbers_company_3 numbers_companys">
+                        <p class="numbers">200</p>
+                        <p class="p_dates">CLIENTS</p>
+                    </div>
+                </div>
+                <div class="choose_lorem">
+                    <p class="choose_lorems">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been
+                        the industry's standard dummy text ever since it to make a type specimen book.</p>
+                    <p class="choose_lorems">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been
+                        the industry's standard dummy text ever since it to make a type specimen book.</p>
+                    <p class="choose_lorems">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been
+                        the industry's standard dummy text ever since it to make a type specimen book.</p>
+                </div>
         </section>
     </div>
     <script src="js/index.js"></script>
