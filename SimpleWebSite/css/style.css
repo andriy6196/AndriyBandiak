@@ -112,14 +112,14 @@
 }
 #section_one .technology .techWeb {
   padding-bottom: 40px;
-  font-size: 50px;
   font-weight: bold;
   line-height: 1.14;
+  font-size: calc(24px + 26 * ((100vw - 320px) / 1361));
 }
 #section_one .technology .theMost {
   padding-bottom: 46px;
-  font-size: 18px;
   line-height: 1.5;
+  font-size: calc(13px + 5 * ((100vw - 320px) / 1361));
 }
 #section_one .technology .signUp {
   width: 183px;
@@ -146,31 +146,14 @@
   padding-bottom: 205px;
 }
 #section_two .what_we_do .img_whatwe {
-  background: url(../img/what_we_do.jpg) no-repeat;
-  margin-top: 116px;
-  width: 606px;
-  height: 518px;
+  margin: 116px 10px 0;
+  overflow: hidden;
+  min-height: 150px;
 }
-@media screen and (max-width: 1167px) {
-  #section_two .what_we_do .img_whatwe {
-    background: url(../img/what_we_do_950.jpg) no-repeat;
-    width: 426px;
-    height: 366px;
-    margin-left: 50px;
-  }
-}
-@media screen and (max-width: 1085px) {
-  #section_two .what_we_do .img_whatwe {
-    margin-left: 0px;
-  }
-}
-@media screen and (max-width: 434px) {
-  #section_two .what_we_do .img_whatwe {
-    background: url(../img/what_we_do_434.jpg) no-repeat;
-    width: 236px;
-    height: 202px;
-    margin-top: 50px;
-  }
+#section_two .what_we_do .img_whatwe img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 #section_two .what_text {
   display: flex;
@@ -180,33 +163,14 @@
 }
 #section_two .what_text .what_h2 {
   padding-bottom: 42px;
-  font-size: 36px;
   color: #4b4b4d;
-}
-@media screen and (max-width: 560px) {
-  #section_two .what_text .what_h2 {
-    font-size: 25px;
-  }
+  font-size: calc(24px + 12 * ((100vw - 320px) / 1361));
 }
 #section_two .what_text .p_what {
   padding: 0 10px 50px;
   line-height: 1.5;
   text-align: center;
-}
-@media screen and (max-width: 560px) {
-  #section_two .what_text .p_what {
-    font-size: 15px;
-  }
-}
-@media screen and (max-width: 515px) {
-  #section_two .what_text .p_what {
-    font-size: 13px;
-  }
-}
-@media screen and (max-width: 447px) {
-  #section_two .what_text .p_what {
-    font-size: 12px;
-  }
+  font-size: calc(12px + 4 * ((100vw - 320px) / 1361));
 }
 #section_two .what_text .learn_more {
   width: 183px;
@@ -222,13 +186,7 @@
   color: white;
   transition-duration: 0.5s;
 }
-@media screen and (max-width: 1187px) {
-  #section_two .what_we_do {
-    display: flex;
-    justify-content: space-evenly;
-  }
-}
-@media screen and (max-width: 1085px) {
+@media screen and (max-width: 860px) {
   #section_two .what_we_do {
     display: flex;
     flex-direction: column;
@@ -250,17 +208,14 @@
   padding-bottom: 41px;
   font-size: 36px;
   color: #4b4b4d;
+  font-size: calc(24px + 12 * ((100vw - 320px) / 1361));
 }
 #section_three .p_services {
   text-align: center;
   color: #4b4b4d;
   line-height: 1.56;
   padding: 0 10px 101px;
-}
-@media screen and (max-width: 725px) {
-  #section_three .p_services {
-    font-size: 13px;
-  }
+  font-size: calc(13px + 3 * ((100vw - 320px) / 1361));
 }
 #section_three .sers {
   display: flex;
@@ -299,17 +254,17 @@
 }
 #section_three .blocks .ser_text {
   padding-bottom: 20px;
-  font-size: 18px;
   font-weight: 500;
   color: #4b4b4d;
+  font-size: calc(15px + 3 * ((100vw - 320px) / 1361));
 }
 #section_three .blocks .ser_lorem {
   text-align: center;
   color: #4b4b4d;
   line-height: 1.56;
-  font-size: 14px;
   padding-left: 32px;
   padding-right: 32px;
+  font-size: calc(12px + 2 * ((100vw - 320px) / 1361));
 }
 #section_three .block4 {
   width: 370px;
@@ -330,9 +285,15 @@
     margin: 0 0 56px 0;
   }
 }
+@media screen and (max-width: 380px) {
+  #section_three .block4 {
+    width: 320px;
+    height: 321px;
+  }
+}
 #section_three .block4 .block4_p {
   color: #ffffff;
-  font-size: 30px;
+  font-size: calc(24px + 6 * ((100vw - 320px) / 1361));
   font-weight: 500;
   padding: 92px 0 17px 0;
 }
@@ -341,7 +302,7 @@
   text-align: center;
   padding: 0 63px 0 53px;
   line-height: 1.56;
-  font-size: 14px;
+  font-size: calc(13px + 3 * ((100vw - 320px) / 1361));
   font-weight: normal;
   padding-bottom: 31px;
 }
@@ -353,6 +314,12 @@
   background-color: #fafafa;
   padding-left: 15px;
 }
+@media screen and (max-width: 380px) {
+  #section_three .block4 .email_form {
+    width: 300px;
+    height: 60px;
+  }
+}
 #section_three .block4 .email_form input::-webkit-input-placeholder {
   color: rgba(75, 75, 77, 0.6);
 }
@@ -361,10 +328,15 @@
   padding-left: 10px;
   background-color: #fafafa;
 }
+@media screen and (max-width: 380px) {
+  #section_three .block4 .email_form input#email {
+    padding-left: 5px;
+  }
+}
 #section_three .block4 .email_form .subcr {
   border: none;
   background-color: #fafafa;
-  padding-top: 20px;
+  margin-top: 20px;
   color: #4b4b4d;
   font-weight: 500;
 }
@@ -425,15 +397,15 @@
   }
 }
 #section_four .container_why_choose_us .why_choose_us .why_choose {
-  font-size: 14px;
   text-transform: uppercase;
   color: #4b4b4d;
   padding-bottom: 30px;
+  font-size: calc(13px + 1 * ((100vw - 320px) / 1361));
 }
 #section_four .container_why_choose_us .why_choose_us .why_choose_h2 {
-  font-size: 36px;
   padding-bottom: 40px;
   color: #4b4b4d;
+  font-size: calc(23px + 13 * ((100vw - 320px) / 1361));
 }
 #section_four .container_why_choose_us .why_choose_us .why_choose_btn {
   margin-top: 41px;
@@ -459,6 +431,7 @@
 }
 #section_four .container_why_choose_us .why_choose_lorem {
   line-height: 1.41;
+  font-size: calc(13px + 3 * ((100vw - 320px) / 1361));
 }
 #section_four .dates .numbers_companys {
   padding-right: 41px;
@@ -485,10 +458,10 @@
   }
 }
 #section_four .choose_lorems {
-  font-size: 15px;
   padding-bottom: 14px;
   color: #4b4b4d;
   line-height: 1.5;
+  font-size: calc(13px + 2 * ((100vw - 320px) / 1361));
 }
 
 *,

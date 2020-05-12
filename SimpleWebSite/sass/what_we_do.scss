@@ -4,31 +4,14 @@
         justify-content: space-between;
         padding-bottom: 205px;
         .img_whatwe {
-            background: url(../img/what_we_do.jpg) no-repeat;
-            margin-top: 116px;
-            width: 606px;
-            height: 518px;
+            margin: 116px 10px 0;
+            overflow: hidden;
+            min-height: 150px;
         }
-        @media screen and (max-width: 1167px) {
-            .img_whatwe {
-                background: url(../img/what_we_do_950.jpg) no-repeat;
-                width: 426px;
-                height: 366px;
-                margin-left: 50px;
-            }
-        }
-        @media screen and (max-width: 1085px) {
-            .img_whatwe {
-                margin-left: 0px;
-            }
-        }
-        @media screen and (max-width: 434px) {
-            .img_whatwe {
-                background: url(../img/what_we_do_434.jpg) no-repeat;
-                width: 236px;
-                height: 202px;
-                margin-top: 50px;
-            }
+        .img_whatwe img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
     }
     .what_text {
@@ -38,25 +21,14 @@
         padding-top: 200px;
         .what_h2 {
             padding-bottom: 42px;
-            font-size: 36px;
             color: #4b4b4d;
-            @media screen and (max-width: 560px) {
-                font-size: 25px;
-            }
+            @include adaptiv-font(36, 24);
         }
         .p_what {
             padding: 0 10px 50px;
             line-height: 1.5;
             text-align: center;
-            @media screen and (max-width: 560px) {
-                font-size: 15px;
-            }
-            @media screen and (max-width: 515px) {
-                font-size: 13px;
-            }
-            @media screen and (max-width: 447px) {
-                font-size: 12px;
-            }
+            @include adaptiv-font(16, 12);
         }
         .learn_more {
             width: 183px;
@@ -73,13 +45,7 @@
             }
         }
     }
-    @media screen and (max-width: 1187px) {
-        .what_we_do {
-            display: flex;
-            justify-content: space-evenly;
-        }
-    }
-    @media screen and (max-width: 1085px) {
+    @media screen and (max-width: 860px) {
         .what_we_do {
             display: flex;
             flex-direction: column;
