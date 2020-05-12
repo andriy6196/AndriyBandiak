@@ -5,15 +5,14 @@
         padding-bottom: 41px;
         font-size: 36px;
         color: #4b4b4d;
+        @include adaptiv-font(36, 24);
     }
     .p_services {
         text-align: center;
         color: #4b4b4d;
         line-height: 1.56;
         padding: 0 10px 101px;
-        @media screen and (max-width: 725px) {
-            font-size: 13px;
-        }
+        @include adaptiv-font(16, 13);
     }
     .sers {
         display: flex;
@@ -45,17 +44,17 @@
         }
         .ser_text {
             padding-bottom: 20px;
-            font-size: 18px;
             font-weight: 500;
             color: #4b4b4d;
+            @include adaptiv-font(18, 15);
         }
         .ser_lorem {
             text-align: center;
             color: #4b4b4d;
             line-height: 1.56;
-            font-size: 14px;
             padding-left: 32px;
             padding-right: 32px;
+            @include adaptiv-font(14, 12);
         }
     }
     .block4 {
@@ -72,9 +71,13 @@
         @media screen and (max-width: 739px) {
             margin: 0 0 56px 0;
         }
+        @media screen and (max-width: 380px) {
+            width: 320px;
+            height: 321px;
+        }
         .block4_p {
             color: #ffffff;
-            font-size: 30px;
+            @include adaptiv-font(30, 24);
             font-weight: 500;
             padding: 92px 0 17px 0;
         }
@@ -83,7 +86,7 @@
             text-align: center;
             padding: 0 63px 0 53px;
             line-height: 1.56;
-            font-size: 14px;
+            @include adaptiv-font(16, 13);
             font-weight: normal;
             padding-bottom: 31px;
         }
@@ -94,6 +97,10 @@
             border: solid 1px #dcdcdf;
             background-color: #fafafa;
             padding-left: 15px;
+            @media screen and (max-width: 380px) {
+                width: 300px;
+                height: 60px;
+            }
             input::-webkit-input-placeholder {
                 color: rgba(75, 75, 77, 0.6);
             }
@@ -101,11 +108,14 @@
                 border: none;
                 padding-left: 10px;
                 background-color: #fafafa;
+                @media screen and (max-width: 380px) {
+                    padding-left: 5px;
+                }
             }
             .subcr {
                 border: none;
                 background-color: #fafafa;
-                padding-top: 20px;
+                margin-top: 20px;
                 color: #4b4b4d;
                 font-weight: 500;
             }

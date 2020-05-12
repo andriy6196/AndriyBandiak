@@ -22,15 +22,15 @@
                 margin-right: 0;
             }
             .why_choose {
-                font-size: 14px;
                 text-transform: uppercase;
                 color: #4b4b4d;
                 padding-bottom: 30px;
+                @include adaptiv-font(14, 13);
             }
             .why_choose_h2 {
-                font-size: 36px;
                 padding-bottom: 40px;
                 color: #4b4b4d;
+                @include adaptiv-font(36, 23);
             }
             .why_choose_btn {
                 margin-top: 41px;
@@ -55,6 +55,7 @@
         }
         .why_choose_lorem {
             line-height: 1.41;
+            @include adaptiv-font(16, 13);
         }
     }
     .dates {
@@ -83,9 +84,9 @@
     }
 
     .choose_lorems {
-        font-size: 15px;
         padding-bottom: 14px;
         color: #4b4b4d;
         line-height: 1.5;
+        @include adaptiv-font(15, 13);
     }
 }
