@@ -5,10 +5,9 @@ html {
 }
 
 body {
-  height: 100%;
   margin: 0;
   padding: 0;
-  background: linear-gradient(to bottom, #202020, #111119);
+  background-color: #202020;
   font-family: "Montserrat", sans-serif;
   overflow: auto;
 }
@@ -181,20 +180,21 @@ a {
   align-content: center;
   justify-content: center;
   padding-bottom: 20px;
+  width: 100%;
+  /* max-width: 1600px; */
 }
 
 #container_lessons {
   position: relative;
   display: none;
-  padding-left: 100px;
+  width: 100%;
+  /* max-width: 1600px; */
 }
 
 #lessons_list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  max-width: 1500px;
-  margin: 0 auto;
+  justify-content: center;
   position: relative;
   text-align: center;
 }
@@ -202,6 +202,7 @@ a {
 .list_item {
   padding: 10px;
   text-align: center;
+  position: relative;
 }
 
 .imgs {
@@ -229,7 +230,7 @@ a {
   transition: ease-in 0.4s;
 }
 
-.bg_sec-line {
+/* .bg_sec-line {
   top: 148px;
 }
 
@@ -251,7 +252,7 @@ a {
 
 .bg_sev-line {
   top: 850px;
-}
+} */
 
 .text_lessons {
   padding-top: 30px;
