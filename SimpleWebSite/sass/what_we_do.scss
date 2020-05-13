@@ -28,18 +28,18 @@
             padding: 0 10px 50px;
             line-height: 1.5;
             text-align: center;
-            @include adaptiv-font(16, 12);
+            @include adaptiv-font(14, 12);
         }
         .learn_more {
             width: 183px;
             height: 55px;
             border-radius: 27.5px;
-            background-color: #4b4b4d;
+            background-color: #16c2a3;
             border: none;
             color: white;
             text-transform: uppercase;
             &:hover {
-                background-color: #16c2a3;
+                background-color: #4b4b4d;
                 color: white;
                 transition-duration: 0.5s;
             }
