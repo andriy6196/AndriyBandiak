@@ -3,7 +3,7 @@ let _name = null;
 let _type = null;
 
 function setUrl(name, type) {
-    url = `http://www.omdbapi.com/?apikey=92fe95ad&s=${name}&type=${type}`;
+    url = `https://www.omdbapi.com/?apikey=92fe95ad&s=${name}&type=${type}`;
     _name = name;
     _type = type;
 }
