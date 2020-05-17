@@ -1,3 +1,200 @@
-// #section_footer {
+#section_footer {
+    position: relative;
+    width: 100%;
+    height: 524px;
+    @media screen and (max-width: 860px) {
+        height: 324px;
+    }
+    @media screen and (max-width: 455px) {
+        height: 380px;
+    }
 
-// }
+    background-image: linear-gradient(to top, #55b7ff, #7e5aff);
+    .get {
+        width: 770px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px -4px 30px 0 rgba(133, 133, 133, 0.2);
+        height: 450px;
+        padding-top: 60px;
+        position: absolute;
+        transform: translate(0px, -303px);
+        z-index: 100;
+        background: url(../img/get.png);
+        background-color: white;
+        @media screen and (max-width: 860px) {
+            display: none;
+        }
+    }
+
+    .section5_hr1 {
+        width: 100px;
+        height: 1px;
+        background-color: #2c4058;
+        margin: 0 auto;
+    }
+    .section5_title {
+        font-family: "Gotham", sans-serif;
+        font-weight: 500;
+        color: #2c4058;
+        text-align: center;
+        padding-top: 30px;
+        font-size: 44px;
+    }
+
+    .section5_box {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: flex-start;
+        .inform_text {
+            padding-left: 50px;
+            padding-top: 34px;
+            font-family: "GothamBook", sans-serif;
+        }
+
+        .inform_user {
+            display: flex;
+            flex-direction: column;
+            padding-left: 50px;
+            padding-top: 0px;
+
+            #user_name {
+                margin-top: 20px;
+                padding-left: 10px;
+                width: 300px;
+                height: 50px;
+                color: black;
+                border: none;
+                border-bottom: 1px solid black;
+                font-size: 18px;
+                font-family: "GothamBook", sans-serif;
+            }
+            #user_email {
+                margin-top: 30px;
+                padding-left: 10px;
+                width: 300px;
+                height: 50px;
+                color: black;
+                border: none;
+                border-bottom: 1px solid black;
+                font-size: 18px;
+                font-family: "GothamBook", sans-serif;
+            }
+            .inform_user_button {
+                margin-left: 170px;
+                margin-top: 40px;
+                width: 130px;
+                height: 50px;
+                background-color: white;
+                border: 1px solid black;
+                margin-bottom: 100px;
+                color: #2c4058;
+                text-transform: uppercase;
+                font-family: "GothamBook", sans-serif;
+                font-size: 14px;
+                &:hover {
+                    background-color: #7e5aff;
+                    border: #7e5aff;
+                    color: white;
+                    transition: 0.7s;
+                }
+            }
+        }
+    }
+    .marker::before {
+        content: "\f041";
+        font-family: "icomoon";
+        padding-right: 5px;
+        color: #7e5aff;
+        transform: translate(-16px, 0px);
+        position: absolute;
+    }
+    .telefone::before {
+        content: "\f095";
+        font-family: "icomoon";
+        color: #7e5aff;
+        transform: translate(-18px, 0px);
+        position: absolute;
+    }
+    .bag::before {
+        content: "\f01c";
+        font-family: "icomoon";
+        color: #7e5aff;
+        transform: translate(-19px, 0px);
+        position: absolute;
+    }
+    .clock::before {
+        content: "\f017";
+        font-family: "icomoon";
+        color: #7e5aff;
+        transform: translate(-19px, 0px);
+        position: absolute;
+    }
+    .section_footer_block {
+        padding-top: 204px;
+        @media screen and (max-width: 860px) {
+            padding-top: 100px;
+        }
+        img {
+            padding-bottom: 42px;
+        }
+        .section_footer_block_text {
+            font-size: 14px;
+            color: #ffffff;
+            font-family: "GothamBook", sans-serif;
+        }
+        .section_footer_block_text_sec {
+            padding: 0px;
+            @media screen and (max-width: 810px) {
+                padding-top: 10px;
+            }
+        }
+        .hr_footer {
+            margin: 0 10px;
+            width: 1px;
+            height: 20px;
+            opacity: 0.5;
+            background-color: #ffffff;
+            @media screen and (max-width: 810px) {
+                display: none;
+            }
+        }
+        .text_footer {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            @media screen and (max-width: 810px) {
+                flex-direction: column;
+            }
+        }
+    }
+    .block__logo-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media screen and (max-width: 810px) {
+            justify-content: space-around;
+        }
+        @media screen and (max-width: 455px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .container_footer {
+        max-width: 770px;
+        margin: 0 auto;
+    }
+    .icons-a_footer a {
+        text-decoration: none;
+    }
+    .header__icons-a img:hover {
+        transform: scale(1.1);
+        transition: ease-in 0.3s;
+    }
+}
