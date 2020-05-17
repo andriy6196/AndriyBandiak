@@ -59,7 +59,6 @@ $('.news__blocks').slick({
         {
             breakpoint: 769,
             settings: {
-                dots: false,
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
