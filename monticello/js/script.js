@@ -37,6 +37,43 @@ $(document).ready(function () {
 });
 
 
+$('.news__blocks').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    dots: true,
+    easing: 'ease',
+    autoplay: true,
+    autoplaySpeed: 4000,
+    pauseOnFocus: true,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 769,
+            settings: {
+                dots: false,
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 425,
+            settings: {
+                slidesToShow: 1,
+                dots: false
+            }
+        }
+    ]
+});
+
+
+
 
 
 // =============================================================
