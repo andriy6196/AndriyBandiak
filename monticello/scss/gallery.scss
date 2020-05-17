@@ -1,3 +1,80 @@
-// #section_gallery {
-
-// }
+#section_gallery {
+    .section_gallery-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 124px;
+        padding-bottom: 40px;
+        .section_gallery-header-hr {
+            width: 100px;
+            height: 1px;
+            background-color: #2c4058;
+        }
+        .section_gallery-header-h2 {
+            @include adaptiv-font(44, 24);
+            font-weight: 500;
+            font-family: "Gotham", sans-serif;
+            line-height: 0.5;
+            letter-spacing: 2px;
+            padding-top: 45px;
+            padding-bottom: 62px;
+        }
+    }
+    .section_gallery_imgs {
+        display: flex;
+        @media screen and (max-width: 1185px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .section_gallery_imgs-big img {
+            padding: 0 5px;
+            @media screen and (max-width: 600px) {
+                display: none;
+            }
+        }
+        .section_gallery_imgs-small {
+            display: flex;
+            flex-direction: column;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                min-width: 150px;
+                max-width: 285px;
+                margin: 0px 3.5px 14px;
+                @media screen and (max-width: 1185px) {
+                    margin: 5px;
+                }
+            }
+            .section_gallery_imgs-small1 {
+                display: flex;
+                flex-direction: row;
+            }
+            .section_gallery_imgs-small2 {
+                display: flex;
+                flex-direction: row;
+            }
+        }
+    }
+    .btn_gallery {
+        display: flex;
+        justify-content: center;
+        .section_gallery-btn {
+            width: 190px;
+            height: 50px;
+            border: solid 1px #2c4058;
+            margin-bottom: 140px;
+            margin-top: 45px;
+            background-color: white;
+            color: #2c4058;
+            font-family: "GothamBook", sans-serif;
+            font-size: 14px;
+            &:hover {
+                background-color: #55b7ff;
+                color: white;
+                border: none;
+                transition: ease-in 0.3s;
+            }
+        }
+    }
+}
