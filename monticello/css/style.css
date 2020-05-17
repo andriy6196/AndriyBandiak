@@ -563,11 +563,6 @@
     padding-bottom: 20px;
   }
 }
-@media screen and (max-width: 768px) {
-  #section_news {
-    padding-bottom: 0;
-  }
-}
 #section_news .section_news_header {
   display: flex;
   flex-direction: column;

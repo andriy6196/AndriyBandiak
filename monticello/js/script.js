@@ -52,21 +52,24 @@ $('.news__blocks').slick({
         {
             breakpoint: 1200,
             settings: {
-                slidesToShow: 2
+                slidesToShow: 2,
+                slidesToScroll: 2
             }
         },
         {
             breakpoint: 769,
             settings: {
                 dots: false,
-                slidesToShow: 2
+                slidesToShow: 2,
+                slidesToScroll: 2
             }
         },
         {
             breakpoint: 425,
             settings: {
+                dots: false,
                 slidesToShow: 1,
-                dots: false
+                slidesToScroll: 1,
             }
         }
     ]
