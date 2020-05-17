@@ -1,0 +1,48 @@
+// ===========================================
+//                     BASE
+// ===========================================
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+// ===========================================
+//                     FONTS
+// ===========================================
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
+
+//font-family: 'Open Sans', sans-serif;
+
+@font-face {
+    font-family: "Gotham";
+    src: url(../fonts/GothamMediumRegular/gotham-medium-webfont.woff),
+        url(../fonts/GothamMediumRegular/gotham-medium-webfont.woff2),
+        url(../fonts/GothamMediumRegular/GothamMediumRegular.ttf);
+}
+
+//font-family: "Gotham",sans-serif;
+
+@font-face {
+    font-family: "Gothambold";
+    src: url(../fonts/gothambold/gothambold1.eot),
+        url(../fonts/gothambold/gothambold1.ttf) url(../fonts/gothambold/gothambold1.woff);
+}
+
+//font-family: "Gothambold",sans-serif;
+
+@font-face {
+    font-family: "GothamBook";
+    src: url(../fonts/GothamBook/GothamBook.ttf);
+}
+
+//font-family: "GothamBook",sans-serif;
