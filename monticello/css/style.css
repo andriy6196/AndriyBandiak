@@ -552,15 +552,23 @@
   background: url(../img/Bg_news.png) center/cover no-repeat;
   padding-top: 136px;
   padding-bottom: 209px;
+  height: 1035px;
 }
 @media screen and (max-width: 1185px) {
   #section_news {
     padding-top: 50px;
+    height: 900px;
   }
 }
 @media screen and (max-width: 1000px) {
   #section_news {
     padding-bottom: 20px;
+    height: 800px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #section_news {
+    height: 600px;
   }
 }
 #section_news .section_news_header {
