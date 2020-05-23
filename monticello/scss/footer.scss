@@ -3,10 +3,7 @@
     width: 100%;
     height: 524px;
     @media screen and (max-width: 860px) {
-        height: 324px;
-    }
-    @media screen and (max-width: 455px) {
-        height: 380px;
+        height: 100%;
     }
 
     background-image: linear-gradient(to top, #55b7ff, #7e5aff);
@@ -26,7 +23,24 @@
         background: url(../img/get.png);
         background-color: white;
         @media screen and (max-width: 860px) {
-            display: none;
+            position: inherit;
+            z-index: 0;
+            transform: translate(0px, 10px);
+        }
+        @media screen and (max-width: 775px) {
+            width: 650px;
+        }
+        @media screen and (max-width: 660px) {
+            width: 500px;
+            height: 620px;
+        }
+        @media screen and (max-width: 505px) {
+            width: 400px;
+        }
+        @media screen and (max-width: 505px) {
+            background-color: transparent;
+            width: 300px;
+            box-shadow: none;
         }
     }
 
@@ -35,6 +49,9 @@
         height: 1px;
         background-color: #2c4058;
         margin: 0 auto;
+        @media screen and (max-width: 505px) {
+            background-color: white;
+        }
     }
     .section5_title {
         font-family: "Gotham", sans-serif;
@@ -42,7 +59,10 @@
         color: #2c4058;
         text-align: center;
         padding-top: 30px;
-        font-size: 44px;
+        @include adaptiv-font(44, 24);
+        @media screen and (max-width: 505px) {
+            color: white;
+        }
     }
 
     .section5_box {
@@ -51,10 +71,22 @@
         flex-direction: row;
         justify-content: start;
         align-items: flex-start;
+        @media screen and (max-width: 660px) {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        @media screen and (max-width: 505px) {
+            color: white;
+            text-align: center;
+        }
         .inform_text {
             padding-left: 50px;
             padding-top: 34px;
             font-family: "GothamBook", sans-serif;
+            @media screen and (max-width: 505px) {
+                padding-left: 0px;
+            }
         }
 
         .inform_user {
@@ -62,7 +94,9 @@
             flex-direction: column;
             padding-left: 50px;
             padding-top: 0px;
-
+            @media screen and (max-width: 505px) {
+                padding-left: 0px;
+            }
             #user_name {
                 margin-top: 20px;
                 padding-left: 10px;
@@ -103,6 +137,9 @@
                     color: white;
                     transition: 0.7s;
                 }
+                @media screen and (max-width: 660px) {
+                    margin: 10px auto;
+                }
             }
         }
     }
@@ -113,6 +150,9 @@
         color: #7e5aff;
         transform: translate(-16px, 0px);
         position: absolute;
+        @media screen and (max-width: 505px) {
+            color: white;
+        }
     }
     .telefone::before {
         content: "\f095";
@@ -120,6 +160,9 @@
         color: #7e5aff;
         transform: translate(-18px, 0px);
         position: absolute;
+        @media screen and (max-width: 505px) {
+            color: white;
+        }
     }
     .bag::before {
         content: "\f01c";
@@ -127,6 +170,9 @@
         color: #7e5aff;
         transform: translate(-19px, 0px);
         position: absolute;
+        @media screen and (max-width: 505px) {
+            color: white;
+        }
     }
     .clock::before {
         content: "\f017";
@@ -134,11 +180,15 @@
         color: #7e5aff;
         transform: translate(-19px, 0px);
         position: absolute;
+        @media screen and (max-width: 505px) {
+            color: white;
+        }
     }
     .section_footer_block {
         padding-top: 204px;
         @media screen and (max-width: 860px) {
             padding-top: 100px;
+            padding-bottom: 10px;
         }
         img {
             padding-bottom: 42px;
