@@ -50,21 +50,21 @@ $('.news__blocks').slick({
     pauseOnDotsHover: true,
     responsive: [
         {
-            breakpoint: 1200,
+            breakpoint: 951,
             settings: {
                 slidesToShow: 2,
                 slidesToScroll: 2
             }
         },
+        // {
+        //     breakpoint: 769,
+        //     settings: {
+        //         slidesToShow: 2,
+        //         slidesToScroll: 2
+        //     }
+        // },
         {
-            breakpoint: 769,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2
-            }
-        },
-        {
-            breakpoint: 425,
+            breakpoint: 600,
             settings: {
                 dots: false,
                 slidesToShow: 1,
@@ -83,14 +83,14 @@ $('.news__blocks').slick({
 // =============================================================
 
 
-// $(window).scroll(function () {
-//     if ($(window).scrollTop() > 100) {
-//         $('.header__content-first').addClass('scroll');
-//     }
-//     else {
-//         $('.header__content-first').removeClass('scroll')
-//     }
-// });
+$(window).scroll(function () {
+    if ($(window).scrollTop() > 1) {
+        $('.header__content-first').addClass('scroll');
+    }
+    else {
+        $('.header__content-first').removeClass('scroll')
+    }
+});
 
 // =============================================================
 //                       Easy scroll
