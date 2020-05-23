@@ -4,6 +4,18 @@
   position: relative;
 }
 
+@media (min-width: 761px) and (max-width: 1600px) {
+  .a_nav {
+    margin-top: 18px;
+  }
+}
+@media screen and (max-width: 761px) {
+  .a_nav {
+    background-color: rgba(85, 183, 255, 0.3);
+    margin-top: 43px;
+    width: 100%;
+  }
+}
 .header__content-first.scroll {
   background-image: linear-gradient(to top, #55b7ff, #7e5aff);
   position: fixed;
@@ -94,7 +106,8 @@
 .topnav a {
   color: #ffffff;
   text-align: center;
-  text-decoration: none;
+  -webkit-text-decoration-color: transparent;
+          text-decoration-color: transparent;
   font-size: 14px;
   font: outline;
   padding-top: 20px;
@@ -124,6 +137,11 @@
     padding-top: 8px;
   }
 }
+@media screen and (max-width: 500px) {
+  .contact {
+    padding-bottom: 40px;
+  }
+}
 @media screen and (max-width: 761px) {
   .active {
     margin-top: 30px;
@@ -151,6 +169,8 @@
     text-align: right;
     margin-right: 10px;
     margin-top: 23px;
+    color: white;
+    font-weight: 700;
   }
 }
 .containerIcon {
@@ -221,6 +241,11 @@
   position: absolute;
   font-size: 10px;
 }
+@media screen and (max-width: 761px) {
+  .about:before {
+    display: none;
+  }
+}
 
 .before_dots:before {
   content: "";
@@ -228,6 +253,11 @@
   font-size: 10px;
   transform: translate(-25px, 2px);
   position: absolute;
+}
+@media screen and (max-width: 761px) {
+  .before_dots:before {
+    display: none;
+  }
 }
 
 .before_dots:hover:before {
