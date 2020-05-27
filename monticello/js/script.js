@@ -23,7 +23,7 @@ function myFunctionOne(y) {
 
     const body = document.querySelector('body');
 
-    if(overflowBody === true) {
+    if (overflowBody === true) {
         body.style.overflow = 'hidden';
     } else {
         body.style.overflow = 'visible';
@@ -69,13 +69,6 @@ $('.news__blocks').slick({
                 slidesToScroll: 2
             }
         },
-        // {
-        //     breakpoint: 769,
-        //     settings: {
-        //         slidesToShow: 2,
-        //         slidesToScroll: 2
-        //     }
-        // },
         {
             breakpoint: 600,
             settings: {
@@ -112,9 +105,7 @@ $(window).scroll(function () {
 
 
 $(document).ready(function () {
-
-
-    $("a.arrow_top").click(function () {
+    $(".link__item").click(function () {
         $("html, body").animate({
             scrollTop: $($(this).attr("href")).offset().top + "px"
         }, {
@@ -123,58 +114,7 @@ $(document).ready(function () {
         });
         return false;
     });
-
-
 });
-
-$(document).ready(function () {
-
-
-    $("a.projects").click(function () {
-        $("html, body").animate({
-            scrollTop: $($(this).attr("href")).offset().top + "px"
-        }, {
-            duration: 1000,
-            easing: "swing"
-        });
-        return false;
-    });
-
-
-});
-
-$(document).ready(function () {
-
-
-    $("a.news").click(function () {
-        $("html, body").animate({
-            scrollTop: $($(this).attr("href")).offset().top + "px"
-        }, {
-            duration: 1000,
-            easing: "swing"
-        });
-        return false;
-    });
-
-
-});
-
-$(document).ready(function () {
-
-
-    $("a.contact").click(function () {
-        $("html, body").animate({
-            scrollTop: $($(this).attr("href")).offset().top + "px"
-        }, {
-            duration: 1000,
-            easing: "swing"
-        });
-        return false;
-    });
-
-
-});
-
 // =============================================================
 //                       Easy scroll
 // =============================================================

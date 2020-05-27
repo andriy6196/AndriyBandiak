@@ -7,6 +7,7 @@
     <meta name="description" content="Second xam work on the course of Beetroot Academy">
     <meta name="keywords" content="HTML,CSS,JavaScript">
     <title>Monticello</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/icons.css">
@@ -26,10 +27,10 @@
                 <nav class="header__nav">
                     <div class="topnav" id="myTopnav">
                         <div class="a_nav">
-                            <a class="about nav__hrefs" href="#">ABOUT US</a>
-                            <a class="projects nav__hrefs before_dots" href="#section_projects">PROJECTS</a>
-                            <a class="news nav__hrefs before_dots" href="#section_news">NEWS</a>
-                            <a class="contact nav__hrefs before_dots" href="#section_contact">CONTACT</a>
+                            <a class="link__item about nav__hrefs" href="#section__header">ABOUT US</a>
+                            <a class="link__item projects nav__hrefs before_dots" href="#section_projects">PROJECTS</a>
+                            <a class="link__item news nav__hrefs before_dots" href="#section_news">NEWS</a>
+                            <a class="link__item contact nav__hrefs before_dots" href="#section_contact">CONTACT</a>
                         </div>
 
                         <div class="containerIcon icon" onclick="myFunctionOne(this)">
@@ -60,7 +61,7 @@
                     <div class="header__content-sec">
                         <h2 class="header__h2">SIMPLE & MORDERN</h2>
                         <p class="header__p">We make the world's beautiful every day</p>
-                        <a class="arrow_top" href="#section_projects">
+                        <a class="arrow_top link__item" href="#section_projects">
                             <div class="header__arrow">
                                 <img src="img/arrow.png" alt="arrow">
                             </div>
@@ -95,13 +96,13 @@
             <div class="section_projects-header">
                 <HR class="what_hr">
                 </HR>
-                <h2 class="what__h2">WHAT WE DO</h2>
+                <h2 class="what__h2 wow bounceInDown">WHAT WE DO</h2>
             </div>
             <div class="img_blue">
                 <img src="img/Back_blue.png" alt="Back_blue">
             </div>
             <div class="container">
-                <div class="section__projects-content1">
+                <div class="section__projects-content1 wow bounceInLeft">
                     <img src="img/img_project1.png" alt="Img1_project1">
                     <div class="section__projects-text">
                         <p class="section__projects-content1_p">ONE WORLD</p>
@@ -117,7 +118,7 @@
                 <div class="img_violet">
                     <img src="img/Back_violet.png" alt="Back_violet">
                 </div>
-                <div class="section__projects-content2">
+                <div class="section__projects-content2 wow bounceInRight">
                     <img src="img/img_project2.png" alt="img_project2">
                     <div class="section__projects-text_second">
                         <p class="section__projects-content1_p_sec">INTERNATIONAL</p>
@@ -137,7 +138,7 @@
                 <div class="section_news_header">
                     <HR class="news_hr">
                     </HR>
-                    <h2 class="h2_news">LATEST NEWS</h2>
+                    <h2 class="h2_news wow bounceInDown">LATEST NEWS</h2>
                 </div>
                 <div class="news__blocks">
                     <div class="blocks">
@@ -319,18 +320,18 @@
                 <div class="section_gallery-header">
                     <HR class="section_gallery-header-hr">
                     </HR>
-                    <h2 class="section_gallery-header-h2">GALLERY</h2>
+                    <h2 class="section_gallery-header-h2 wow bounceInDown">GALLERY</h2>
                 </div>
                 <div class="section_gallery_imgs">
-                    <div class="section_gallery_imgs-big">
+                    <div class="section_gallery_imgs-big wow rotateInDownLeft">
                         <img src="img/gallery_big.png">
                     </div>
                     <div class="section_gallery_imgs-small">
-                        <div class="section_gallery_imgs-small1">
+                        <div class="section_gallery_imgs-small1 wow rotateInDownRight">
                             <img src="img/galerry_small1.png" alt="galerry_small1">
                             <img src="img/galerry_small2.png" alt="galerry_small2">
                         </div>
-                        <div class="section_gallery_imgs-small2">
+                        <div class="section_gallery_imgs-small2 wow rotateInUpRight">
                             <img src="img/galerry_small3.png" alt="galerry_small3">
                             <img src="img/galerry_small4.png" alt="galerry_small4">
                         </div>
@@ -347,7 +348,7 @@
         </section>
         <section id="section_footer">
             <div class="container_footer">
-                <div class="get">
+                <div class="get wow rotateIn">
                     <hr class="section5_hr1">
                     <h2 class="section5_title">GET IN TOUCH</h2>
                     <div class="section5_box">
@@ -394,6 +395,10 @@
     <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA1hLs2bDfsvKoOERuaVxW41eVNl67IXmU&callback=initMap">
         </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
 

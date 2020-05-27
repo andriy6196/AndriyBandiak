@@ -1,5 +1,8 @@
 #section_five {
     padding-bottom: 100px;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 50px;
+    }
     .section_five_content {
         display: flex;
         align-items: center;

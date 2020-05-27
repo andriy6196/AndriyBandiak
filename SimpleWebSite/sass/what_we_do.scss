@@ -3,10 +3,16 @@
         display: flex;
         justify-content: space-between;
         padding-bottom: 205px;
+        @media screen and (max-width: 768px) {
+            padding-bottom: 50px;
+        }
         .img_whatwe {
             margin: 116px 10px 0;
             overflow: hidden;
             min-height: 150px;
+            @media screen and (max-width: 768px) {
+                margin: 30px 10px 0;
+            }
         }
         .img_whatwe img {
             width: 100%;
