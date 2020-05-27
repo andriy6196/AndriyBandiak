@@ -20,7 +20,7 @@ hireButtonFooter.addEventListener('click', () => {
 // Закриття Popup Hire
 const closeHire = document.querySelector('.hire-popup__close');
 closeHire.addEventListener('click', () => {
-  const popupHire = document.querySelector('.hire-popup'); 
+  const popupHire = document.querySelector('.hire-popup');
   // popupHire.style.display = "none";
   popupHire.style.visibility = "hidden";
   popupHire.style.opacity = "0";
@@ -30,7 +30,7 @@ closeHire.addEventListener('click', () => {
 // Відкриття Меню
 const navButton = document.querySelector('.header__nav-box');
 navButton.addEventListener('click', () => {
-  const popupNav = document.querySelector('.nav-popup'); 
+  const popupNav = document.querySelector('.nav-popup');
   // popupNav.style.display = "block";
   popupNav.style.visibility = "visible";
   popupNav.style.opacity = "1";
@@ -39,7 +39,7 @@ navButton.addEventListener('click', () => {
 // Закриття Меню
 const closeNav = document.querySelector('.nav-popup__close');
 closeNav.addEventListener('click', () => {
-  const popupNav = document.querySelector('.nav-popup'); 
+  const popupNav = document.querySelector('.nav-popup');
   // popupNav.style.display = "none";
   popupNav.style.visibility = "hidden";
   popupNav.style.opacity = "0";
@@ -50,34 +50,21 @@ closeNav.addEventListener('click', () => {
 // Закриття Cookies
 const btnAccept = document.querySelector('.top-line__btn-accept');
 btnAccept.addEventListener('click', () => {
-  const topLine = document.querySelector('.top-line'); 
+  const topLine = document.querySelector('.top-line');
   topLine.style.display = "none";
-  setTimeout(() => topLine.style.display = "flex", 2500);
 
 });
 
 
 
 function closePopup() {
-  const navPopup = document.querySelector('.nav-popup'); 
+  const navPopup = document.querySelector('.nav-popup');
   navPopup.style.visibility = "hidden";
   navPopup.style.opacity = "0";
   navPopup.style.transition = "all .2s ease-out";
 }
 
-// const navAbout = document.querySelector('.nav-about');
-// navAbout.addEventListener('click', () => {
 
-//   const navPopup = document.querySelector('.nav-popup'); 
-//   navPopup.style.visibility = "hidden";
-//   navPopup.style.opacity = "0";
-  
-//   // closeHire.array.forEach(element => {
-      
-//   // });
-//   // console.log(closeMenuLink);
-
-// });
 
 const navAbout = document.querySelector('.nav-about');
 navAbout.addEventListener('click', closePopup);
