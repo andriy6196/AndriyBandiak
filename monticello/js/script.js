@@ -9,11 +9,24 @@
 
 
 function myFunctionOne(y) {
-    let x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
+    let overflowBody = false;
+    let x = document.querySelector(".a_nav");
+    if (x.className === "a_nav") {
         x.className += " responsive";
+        overflowBody = true;
     } else {
-        x.className = "topnav";
+        x.className = "a_nav";
+    }
+
+    const iconBg = document.querySelector('.a_nav-bg');
+    iconBg.classList.toggle('a_nav-bg-visible');
+
+    const body = document.querySelector('body');
+
+    if(overflowBody === true) {
+        body.style.overflow = 'hidden';
+    } else {
+        body.style.overflow = 'visible';
     }
 }
 
@@ -84,7 +97,7 @@ $('.news__blocks').slick({
 
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > 1) {
+    if ($(window).scrollTop() > 45) {
         $('.header__content-first').addClass('scroll');
     }
     else {

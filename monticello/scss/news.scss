@@ -2,15 +2,9 @@
     background: url(../img/Bg_news.png) center/cover no-repeat;
     padding-top: 136px;
     padding-bottom: 209px;
-    // @media screen and (max-width: 1185px) {
-    //     padding-top: 50px;
-    // }
-    // @media screen and (max-width: 1000px) {
-    //     padding-bottom: 20px;
-    // }
-    // @media screen and (max-width: 1000px) {
-    //     padding-bottom: 20px;
-    // }
+    @media screen and (max-width: 599px) {
+        padding: 30px 0px;
+    }
     .section_news_header {
         display: flex;
         flex-direction: column;
@@ -36,6 +30,9 @@
         justify-content: center;
         @media screen and (max-width: 1185px) {
             flex-wrap: wrap;
+        }
+        @media screen and (max-width: 599px) {
+            padding-top: 30px;
         }
         .blocks {
             width: 370px;

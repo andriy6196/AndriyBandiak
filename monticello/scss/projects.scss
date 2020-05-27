@@ -11,6 +11,7 @@
     @media screen and (max-width: 550px) {
         height: 1700px;
     }
+
     @media screen and (max-width: 435px) {
         height: 1550px;
     }
@@ -88,6 +89,9 @@
         padding: 56px 150px 65px 69px;
         @media screen and (max-width: 1400px) {
             padding: 30px 15px 30px 30px;
+        }
+        @media screen and (max-width: 800px) {
+            padding: 30px;
         }
         .section__projects-content1_p {
             @include adaptiv-font(22, 16);
@@ -177,6 +181,9 @@
             padding: 63px 16px 49px 210px;
             @media screen and (max-width: 1400px) {
                 padding: 30px 15px 30px 30px;
+            }
+            @media screen and (max-width: 800px) {
+                padding: 30px;
             }
             .section__projects-content1_p_sec {
                 @include adaptiv-font(22, 16);
