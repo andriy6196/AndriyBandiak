@@ -104,9 +104,12 @@
                 height: 50px;
                 color: black;
                 border: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
                 font-size: 18px;
                 font-family: "GothamBook", sans-serif;
+                &:hover:focus {
+                    border-bottom: 1px solid rgba($color: #000000, $alpha: 1);
+                }
             }
             #user_email {
                 margin-top: 30px;
@@ -115,9 +118,12 @@
                 height: 50px;
                 color: black;
                 border: none;
-                border-bottom: 1px solid black;
+                border-bottom: 1px solid rgba($color: #000000, $alpha: 0.3);
                 font-size: 18px;
                 font-family: "GothamBook", sans-serif;
+                &:hover:focus {
+                    border-bottom: 1px solid rgba($color: #000000, $alpha: 1);
+                }
             }
             .inform_user_button {
                 margin-left: 170px;
