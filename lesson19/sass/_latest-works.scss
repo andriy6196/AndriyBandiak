@@ -1,5 +1,8 @@
 #latest-works {
     padding-bottom: 191px;
+    @media only screen and (max-width: 768px) {
+        padding-bottom: 20px;
+    }
     h2.h2_latest {
         font-size: 50px;
         font-weight: 300;
@@ -10,23 +13,33 @@
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
+        @media only screen and (max-width: 768px) {
+            padding: 20px 0px;
+        }
     }
     .box_latest-1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         flex-direction: row;
+
         .works:hover {
             opacity: 0.4;
             transform: scale(1.05);
             transition-duration: 1s;
+            @media only screen and (max-width: 761px) {
+                transform: scale(1);
+            }
         }
         .works_padtop {
             padding-bottom: 53px;
+            @media only screen and (max-width: 761px) {
+                padding-bottom: 0px;
+            }
         }
         .works_padtop_1 {
             @media screen and (max-width: 751px) {
-                padding-top: 53px;
+                padding-top: 0px;
             }
         }
         @media screen and (max-width: 1114px) {
@@ -36,6 +49,17 @@
         @media screen and (max-width: 1112px) {
             display: flex;
             justify-content: space-evenly;
+        }
+    }
+    @media only screen and (max-width: 761px) {
+        .works img {
+            padding: 5px;
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        .works img {
+            width: 300px;
+            max-width: 300px;
         }
     }
 }
