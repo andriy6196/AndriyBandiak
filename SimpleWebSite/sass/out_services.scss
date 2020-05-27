@@ -1,5 +1,8 @@
 #section_three {
     padding-bottom: 200px;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 50px;
+    }
     .services {
         text-align: center;
         padding-bottom: 41px;
@@ -118,6 +121,10 @@
                 margin-top: 20px;
                 color: #4b4b4d;
                 font-weight: 500;
+                &:hover {
+                    transform: scale(1.1);
+                    transition: ease-in 0.2s;
+                }
             }
         }
     }
@@ -150,16 +157,3 @@
         }
     }
 }
-
-// .card__btn-buy:hover {
-//     transform: translateY(-4px);
-//     box-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
-//     background-color: #12d484;
-//     color: #f2f2f2;
-//   }
-//   .card__btn-buy:active {
-//     transform: translateY(3px);
-//     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-//     background-color: #0fb370;
-//     color: #e6e6e6;
-//   }

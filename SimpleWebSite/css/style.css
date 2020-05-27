@@ -3,15 +3,24 @@
   background: url(../img/bg_1.jpg) no-repeat center/cover;
   height: 796px;
 }
+@media screen and (min-width: 685px) {
+  #section_one .header_content {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to left, #04c2a8, whitesmoke);
+  }
+}
 #section_one .logo1 {
   background-image: url(../img/logo_1.jpg);
   width: 153px;
   height: 65px;
-  position: absolute;
+  margin-left: 30px;
 }
-@media screen and (max-width: 1193px) {
+@media screen and (min-width: 685px) {
   #section_one .logo1 {
-    margin-left: 30px;
+    position: fixed;
   }
 }
 #section_one .topnav {
@@ -19,6 +28,13 @@
   flex-direction: row;
   justify-content: flex-end;
   padding-top: 30px;
+  right: 0;
+  position: fixed;
+}
+@media screen and (max-width: 685px) {
+  #section_one .topnav {
+    position: fixed;
+  }
 }
 #section_one .topnav a {
   color: #f2f2f2;
@@ -28,7 +44,7 @@
   font-size: 17px;
   font: outline;
 }
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 685px) {
   #section_one .topnav a:hover {
     background-color: #ddd;
     color: black;
@@ -37,14 +53,13 @@
 #section_one .topnav .icon {
   display: none;
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 685px) {
   #section_one .topnav {
-    position: absolute;
     top: 0;
     right: 0;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 685px) {
   #section_one .topnav a {
     display: none;
   }
@@ -54,17 +69,18 @@
     padding-right: 20px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 685px) {
   #section_one .active {
     margin-top: 30px;
   }
   #section_one .topnav.responsive {
-    position: absolute;
     display: flex;
     flex-direction: column;
     padding-top: 30px;
     top: 0;
     right: 0;
+    background-color: rgba(0, 153, 153, 0.5);
+    z-index: 100;
   }
   #section_one .topnav.responsive .icon {
     position: absolute;
@@ -87,7 +103,7 @@
 #section_one .containerIcon .bar3 {
   width: 35px;
   height: 5px;
-  background-color: white;
+  background-color: #ff9c00;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -100,12 +116,12 @@
     padding-left: 30px;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 685px) {
   #section_one .technology {
     text-align: center;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 685px) {
   #section_one .technology {
     padding-left: 0px;
   }
@@ -145,10 +161,20 @@
   justify-content: space-between;
   padding-bottom: 205px;
 }
+@media screen and (max-width: 768px) {
+  #section_two .what_we_do {
+    padding-bottom: 50px;
+  }
+}
 #section_two .what_we_do .img_whatwe {
   margin: 116px 10px 0;
   overflow: hidden;
   min-height: 150px;
+}
+@media screen and (max-width: 768px) {
+  #section_two .what_we_do .img_whatwe {
+    margin: 30px 10px 0;
+  }
 }
 #section_two .what_we_do .img_whatwe img {
   width: 100%;
@@ -202,6 +228,11 @@
 
 #section_three {
   padding-bottom: 200px;
+}
+@media screen and (max-width: 768px) {
+  #section_three {
+    padding-bottom: 50px;
+  }
 }
 #section_three .services {
   text-align: center;
@@ -340,6 +371,10 @@
   color: #4b4b4d;
   font-weight: 500;
 }
+#section_three .block4 .email_form .subcr:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.2s;
+}
 #section_three .btn_black {
   width: 183px;
   height: 55px;
@@ -366,6 +401,11 @@
 
 #section_four {
   padding-bottom: 143px;
+}
+@media screen and (max-width: 768px) {
+  #section_four {
+    padding-bottom: 50px;
+  }
 }
 #section_four .container_why_choose_us {
   display: flex;
@@ -467,6 +507,11 @@
 #section_five {
   padding-bottom: 100px;
 }
+@media screen and (max-width: 768px) {
+  #section_five {
+    padding-bottom: 50px;
+  }
+}
 #section_five .section_five_content {
   display: flex;
   align-items: center;
@@ -529,6 +574,11 @@
 
 #section_six {
   padding-bottom: 99px;
+}
+@media screen and (max-width: 768px) {
+  #section_six {
+    padding-bottom: 10px;
+  }
 }
 #section_six .section_six_content {
   text-align: center;
@@ -1325,13 +1375,6 @@ html {
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 2 */
-}
-
-/**
- * Address `outline` inconsistency between Chrome and other browsers.
- */
-a:focus {
-  outline: thin dotted;
 }
 
 /**

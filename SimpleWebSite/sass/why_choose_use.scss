@@ -1,5 +1,8 @@
 #section_four {
     padding-bottom: 143px;
+    @media screen and (max-width: 768px) {
+        padding-bottom: 50px;
+    }
     .container_why_choose_us {
         display: flex;
         justify-content: center;

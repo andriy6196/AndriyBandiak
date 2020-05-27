@@ -11,25 +11,31 @@
     <title>H-Technology</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" sizes="16x16" href="img/favicon.ico">
+    <script>
+        new WOW().init();
+    </script>
 </head>
 
 <body>
     <div id="main">
         <section id="section_one">
-            <div class="container">
+            <div class="header_content">
                 <div class="logo1"></div>
                 <div class="topnav" id="myTopnav">
-                    <a href="#" class="active">HOME</a>
-                    <a href="#">ABOUT</a>
-                    <a href="#">SERVICES</a>
-                    <a href="#">BLOG</a>
-                    <a href="#">CONTACT US</a>
+                    <a href="#section_one" class="active link__item">HOME</a>
+                    <a href="#section_two" class="link__item">ABOUT</a>
+                    <a href="#section_three" class="link__item">SERVICES</a>
+                    <a href="#section_six" class="link__item">BLOG</a>
+                    <a href="#section_five" class="link__item">CONTACT US</a>
                     <div class="containerIcon icon" onclick="myFunctionOne(this)">
                         <div class="bar1"></div>
                         <div class="bar2"></div>
                         <div class="bar3"></div>
                     </div>
                 </div>
+            </div>
+            <div class="container">
+
                 <div class="technology">
                     <h2 class="techWeb">Technology Website <br>
                         Made Easy!</h2>
@@ -281,5 +287,6 @@
             <footer>2020 © Copyright Bright JH</footer>
         </section>
     </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/index.js"></script>
 </body>

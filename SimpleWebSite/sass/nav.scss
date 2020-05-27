@@ -1,20 +1,36 @@
 #section_one {
     background: url(../img/bg_1.jpg) no-repeat center/cover;
     height: 796px;
+    @media screen and (min-width: 685px) {
+        .header_content {
+            z-index: 100;
+            position: fixed;
+            width: 100%;
+            height: 100px;
+            background-image: linear-gradient(to left, #04c2a8, whitesmoke);
+        }
+    }
+
     .logo1 {
         background-image: url(../img/logo_1.jpg);
         width: 153px;
         height: 65px;
-        position: absolute;
-        @media screen and (max-width: 1193px) {
-            margin-left: 30px;
+        margin-left: 30px;
+        @media screen and (min-width: 685px) {
+            position: fixed;
         }
     }
+
     .topnav {
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         padding-top: 30px;
+        right: 0;
+        position: fixed;
+        @media screen and (max-width: 685px) {
+            position: fixed;
+        }
     }
     .topnav a {
         color: #f2f2f2;
@@ -24,7 +40,7 @@
         font-size: 17px;
         font: outline;
     }
-    @media screen and (min-width: 650px) {
+    @media screen and (min-width: 685px) {
         .topnav a:hover {
             background-color: #ddd;
             color: black;
@@ -35,15 +51,14 @@
         display: none;
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 685px) {
         .topnav {
-            position: absolute;
             top: 0;
             right: 0;
         }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 685px) {
         .topnav a {
             display: none;
         }
@@ -54,17 +69,18 @@
         }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 685px) {
         .active {
             margin-top: 30px;
         }
         .topnav.responsive {
-            position: absolute;
             display: flex;
             flex-direction: column;
             padding-top: 30px;
             top: 0;
             right: 0;
+            background-color: rgba($color: #009999, $alpha: 0.5);
+            z-index: 100;
         }
         .topnav.responsive .icon {
             position: absolute;
@@ -86,7 +102,7 @@
         .bar3 {
             width: 35px;
             height: 5px;
-            background-color: white;
+            background-color: #ff9c00;
             margin: 6px 0;
             transition: 0.4s;
         }
@@ -95,10 +111,10 @@
         @media screen and (max-width: 1193px) {
             padding-left: 30px;
         }
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: 685px) {
             text-align: center;
         }
-        @media screen and (max-width: 650px) {
+        @media screen and (max-width: 685px) {
             padding-left: 0px;
         }
         padding-top: 215px;
