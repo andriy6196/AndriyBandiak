@@ -6,32 +6,22 @@
 
 
 
+// let overflowBody = false;
+const x = document.querySelector(".a_nav");
+const iconBg = document.querySelector('.a_nav-bg');
+const body = document.querySelector('body');
 
-
-function myFunctionOne(y) {
-    let overflowBody = false;
-    let x = document.querySelector(".a_nav");
-    if (x.className === "a_nav") {
-        x.className += " responsive";
-        overflowBody = true;
-    } else {
-        x.className = "a_nav";
-    }
-
-    const iconBg = document.querySelector('.a_nav-bg');
+x.addEventListener('click', () => {
+    x.classList.toggle('responsive');
     iconBg.classList.toggle('a_nav-bg-visible');
+    body.classList.toggle('a_nav-overflow');
+});
 
-    const body = document.querySelector('body');
-
-    if (overflowBody === true) {
-        body.style.overflow = 'hidden';
-    } else {
-        body.style.overflow = 'visible';
-    }
+function myFunctionOne() {
+    x.classList.toggle('responsive');
+    iconBg.classList.toggle('a_nav-bg-visible');
+    body.classList.toggle('a_nav-overflow');
 }
-
-
-
 
 
 
@@ -112,7 +102,7 @@ $(document).ready(function () {
             duration: 1000,
             easing: "swing"
         });
-        return false;
+        // return false;
     });
 });
 // =============================================================
