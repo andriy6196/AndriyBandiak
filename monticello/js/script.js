@@ -14,13 +14,13 @@ const body = document.querySelector('body');
 x.addEventListener('click', () => {
     x.classList.toggle('responsive');
     iconBg.classList.toggle('a_nav-bg-visible');
-    body.classList.toggle('a_nav-overflow');
+    body.classList.remove('a_nav-overflow');
 });
 
 function myFunctionOne() {
     x.classList.toggle('responsive');
     iconBg.classList.toggle('a_nav-bg-visible');
-    body.classList.toggle('a_nav-overflow');
+    body.classList.add('a_nav-overflow');
 }
 
 
