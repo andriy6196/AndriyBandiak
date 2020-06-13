@@ -1,0 +1,28 @@
+// ===========================================
+//                     BASE
+// ===========================================
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    max-width: 1430px;
+    margin: 0 auto;
+    font-family: "Circular Std", sans-serif;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+// ===========================================
+//                     FONTS
+// ===========================================
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+//font-family: 'Montserrat', sans-serif;
+
+//font-family: "Circular Std", sans-serif;
