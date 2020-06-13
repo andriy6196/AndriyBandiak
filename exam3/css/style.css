@@ -56,7 +56,7 @@
 }
 @media screen and (min-width: 321px) and (max-width: 768px) {
   #home .home__sliders_bg {
-    height: 650px;
+    height: 670px;
   }
 }
 #home .img_logo {
@@ -139,7 +139,6 @@
 }
 #home #menu {
   background: whitesmoke;
-  height: 100%;
   left: 0;
   opacity: 0;
   overflow: hidden;
@@ -493,7 +492,7 @@
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   #home .slick-arrow {
-    bottom: 1%;
+    bottom: 3%;
   }
 }
 #home .slick-prev {
@@ -521,6 +520,11 @@
 }
 #home .slick-next:hover {
   background: url(../img/R-hover.png) 0 0 no-repeat;
+}
+
+#services {
+  background: url(../img/bg_services.png) center/auto auto no-repeat;
+  height: 100vh;
 }
 
 *,
