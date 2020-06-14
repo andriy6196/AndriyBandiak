@@ -4,6 +4,7 @@
 
 #home {
     position: relative;
+
     .home__slider1_bg {
         background: url(../img/header_slide_one.png) center / auto auto no-repeat;
         @media only screen and (max-width: 320px) {
@@ -186,6 +187,15 @@
                 text-transform: uppercase;
                 &:first {
                     padding-top: 0;
+                }
+                @media screen and (max-height: 390px) {
+                    padding: 2rem 1rem;
+                }
+                @media screen and (max-height: 333px) {
+                    padding: 1rem 1rem;
+                }
+                @media screen and (max-height: 273px) {
+                    font-size: 30px;
                 }
             }
         }

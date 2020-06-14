@@ -21,7 +21,7 @@
             <header class="header container">
 
                 <div class="logo">
-                    <a href="#">
+                    <a class="link__item" href="#home">
                         <div class="img_logo"></div>
                     </a>
                 </div>
@@ -34,18 +34,18 @@
                     <nav class="main-nav">
                         <ul>
                             <li>
-                                <a href="#">
+                                <a class="link__item" href="#services">
                                     Services
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a class="link__item" href="#">
                                     Location
                                 </a>
                             </li>
 
                             <li>
-                                <a href="#">
+                                <a class="link__item" href="#">
                                     Blog
                                 </a>
                             </li>
@@ -54,9 +54,9 @@
                 </div>
                 <div class="nav-container">
                     <ul class="ul_menu">
-                        <li class="li_menu"><a class="a_menu" href="#">Services</a></li>
-                        <li class="li_menu"><a class="a_menu" href="#">Location</a></li>
-                        <li class="li_menu"><a class="a_menu" href="#">Blog</a></li>
+                        <li class="li_menu"><a class="a_menu link__item" href="#services">Services</a></li>
+                        <li class="li_menu"><a class="a_menu link__item" href="#">Location</a></li>
+                        <li class="li_menu"><a class="a_menu link__item" href="#">Blog</a></li>
                     </ul>
                 </div>
 
@@ -188,6 +188,70 @@
                             for them both for a puppy and for an adult pet.</p>
                         <a href="#" class="services__content-learn-more">Learn more → </a>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div id="location">
+            <div class="container location__content ">
+                <div class="location__content-text1">
+                    <h2 class="location__content-text1-h2">Location</h2>
+                    <div class="alin">
+                        <div class="location__content-text1-a_blocks location__content-text1-a_blocks1">
+                            <a class="location__content-text1-a1 location__content-text1-a" href="#">already opened</a>
+                        </div>
+                        <div class="location__content-text1-a_blocks location__content-text1-a_blocks2">
+                            <a class="location__content-text1-a2 location__content-text1-a" href="#">in progress</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="location__content-p">You Search for good pet care in your city or holiday region. <br> Just
+                    enter
+                    your Zip Code or city.</p>
+            </div>
+
+            <div class="location__inputs container">
+                <div class="location__inputsfirst">
+                    <div class="location__inputs-flex_colum location__inputs-zip">
+                        <label for="zip">ENTER zip code</label>
+                        <input type="number" name="zip" id="zip" pattern="[0-9]*" placeholder="Zip Code">
+                    </div>
+                    <div class="location__inputs-flex_colum location__inputs-radius">
+                        <label for="radius">Choose radius</label>
+                        <select class="radius" name="radius">
+                            <option value="Radius">Radius</option>
+                            <option value="1km">1km</option>
+                            <option value="5km">5km</option>
+                            <option value="10km">10km</option>
+                            <option value="25km">25km</option>
+                            <option value="50km">50km</option>
+                            <option value="100km">100km</option>
+                        </select>
+                        </label>
+                    </div>
+                </div>
+                <div class="location__inputs-flex_columsecond location__inputs-state">
+                    <label for="state">State</label>
+                    <select class="state" name="state">
+                        <option class="option" value="state">Select Your State</option>
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="USA">USA</option>
+                        <option value="Poland">Poland</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Turkish">Turkish</option>
+                    </select>
+                    </label>
+                </div>
+                <div class="location__inputs-flex_columsecond location__inputs-city">
+                    <label for="city">City</label>
+                    <input id="сityid" type="text" name="text" placeholder="Enter Your City">
+                </div>
+            </div>
+            <div class="location__find-see container">
+                <div class="location__find-see1">
+                    <a class="location__find-see1-a" href="#">FIND PATCAREL →</a>
+                </div>
+                <div class="location__find-see2">
+                    <a class="location__find-see1-a" href="#">See all cities →</a>
                 </div>
             </div>
         </div>
