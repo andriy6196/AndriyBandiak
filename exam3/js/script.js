@@ -56,7 +56,13 @@ $(document).ready(function () {
             duration: 1000,
             easing: "swing"
         });
+        $('body').removeClass('overflow');
+        $('#menu').removeClass('open');
+        $('.header').removeClass('height');
+        $('.slick-arrow').removeClass('arrow-none');
+        $('.toggle-menu').removeClass('active');
     });
+
 });
 
 
