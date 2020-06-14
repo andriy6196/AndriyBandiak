@@ -102,7 +102,6 @@ $(document).ready(function () {
             duration: 1000,
             easing: "swing"
         });
-        // return false;
     });
 });
 // =============================================================
