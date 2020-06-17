@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact US</title>
+    <link rel="icon" type="image/x-icon" sizes="16x16" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/popup_contact.css">
+</head>
+
+<body>
+    <div class="contact-container">
+        <ul class="actions">
+            <li><a href="#" id="contact" class="button big">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <div class="cd-popup contact" role="alert">
+        <form name="contactform" id="contactform" class="contact-form">
+            <div class="cd-popup-container">
+                <p>
+                    <a href="" class="cd-popup-close cd-close-button">
+                        <i class="fa fa-times" style="pointer-events:none;"></i>
+                    </a>
+                </p>
+
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" />
+                </div>
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" />
+                </div>
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" name="message"></textarea>
+                </div>
+                <br>
+                <div style="text-align:left">
+                    <input type="checkbox" id="human" name="human" />
+                    <label for="human">I am a human and not a robot.</label>
+                </div>
+                <br>
+                <div class="submit">
+                    <p class="user-message" id="contactblurb"> Questions, suggestions, and general comments are all
+                        welcome!</p>
+                    <input type="submit" name="submit" id="submit" value="Send" />
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="cd-popup notification" role="alert">
+        <div class="cd-popup-container">
+            <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times"
+                    style="pointer-events:none;"></i></a>
+            <p>
+            <h3 id="notification-text">Thanks for getting in touch!</h3>
+            </p>
+        </div>
+    </div>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
