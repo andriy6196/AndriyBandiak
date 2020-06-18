@@ -101,8 +101,8 @@
             width: 200px;
             height: 50px;
         }
-        @media only screen and (max-width: 815px) {
-            width: 150px;
+        @media only screen and (max-width: 850px) {
+            width: 130px;
             height: 50px;
         }
         @media only screen and (max-width: 768px) {
@@ -286,10 +286,10 @@
         text-decoration-color: transparent;
         color: white;
         @include adaptiv-font(22, 18);
-        @media screen and (max-width: 1270px) {
+        @media screen and (max-width: 1290px) {
             padding: 0px 50px;
         }
-        @media screen and (max-width: 1075px) {
+        @media screen and (max-width: 1105px) {
             padding: 0px 30px;
         }
         @media screen and (max-width: 960px) {
@@ -484,5 +484,8 @@
     .contact_us {
         text-decoration-color: transparent;
         color: white;
+        @media only screen and (max-width: 768px) {
+            display: none;
+        }
     }
 }

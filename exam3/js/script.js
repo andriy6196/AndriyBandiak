@@ -65,13 +65,37 @@ $(document).ready(function () {
     });
 
 
-    // =============================================================
-    //                      Slick Slider HEADER
-    // =============================================================
-
-
-
+    $('.blog__sliders').slick({
+        arrows: true,
+        dots: false,
+    });
+    // $('.reviews__slider').slick({
+    //     infinite: true,
+    //     slidesToShow: 3,
+    //     slidesToScroll: 3,
+    //     easing: 'ease',
+    //     autoplay: true,
+    //     autoplaySpeed: 4000,
+    //     pauseOnFocus: true,
+    //     pauseOnHover: true,
+    //     pauseOnDotsHover: true,
+    //     arrows: false,
+    //     dots: false,
+    //     responsive: [
+    //         {
+    //             breakpoint: 1050,
+    //             settings: "unslick"
+    //         },
+    //     ]
+    // });
 });
+// =============================================================
+//                      Slick Slider HEADER
+// =============================================================
+
+
+
+
 
 
 
@@ -134,6 +158,9 @@ $(".close-btn, .bg-overlay").click(function () {
     $(".custom-model-main").removeClass('model-open');
     $('body').removeClass('overflow');
 });
+
+
+
 
 
 
