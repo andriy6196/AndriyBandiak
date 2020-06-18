@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6c8099;
+    font-family: "Montserrat", sans-serif;
+}
+.post-wrap {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+@media (max-width: 1500px) {
+    .post-wrap {
+        flex-wrap: wrap;
+    }
+}
+
+.post-item {
+    padding: 10px;
+}
+.post-item-wrap {
+    background: whitesmoke;
+    position: relative;
+}
+.post-item-wrap:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: #0bcfce;
+    transform: rotate(1deg);
+    transform-origin: left bottom;
+    transition: 0.3s ease-in-out;
+}
+.post-item-wrap:hover:after {
+    top: 5px;
+    left: 5px;
+    transform: rotate(2deg);
+}
+.post-link {
+    text-decoration: none;
+    display: block;
+    padding: 30px;
+}
+.post-title {
+    color: #6c8099;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+}
+.post-item-wrap:hover .post-title {
+    color: #0bcfce;
+}
+.post-content {
+    color: #6c8099;
+    font-size: 14px;
+}
+@media (min-width: 768px) {
+    .post-item {
+        flex-basis: 50%;
+        flex-shrink: 0;
+    }
+}
+@media (min-width: 960px) {
+    .post-item {
+        flex-basis: 33.333333333%;
+    }
+}
+
+.button {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: 2px solid #bfc0c0;
+    margin: 20px;
+    color: #bfc0c0;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.8em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.button:hover {
+    border: 2px solid #0bcfce;
+}
+
+a {
+    color: #bfc0c0;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#button-5 {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#button-5 a {
+    position: relative;
+    transition: all 0.45s ease-Out;
+}
+
+#translate {
+    transform: rotate(50deg);
+    width: 100%;
+    height: 250%;
+    left: -200px;
+    top: -30px;
+    background: #bfc0c0;
+    position: absolute;
+    transition: all 0.3s ease-Out;
+}
+
+#button-5:hover #translate {
+    left: 0;
+    background: #0bcfce;
+}
+
+#button-5:hover a {
+    color: white;
+}
