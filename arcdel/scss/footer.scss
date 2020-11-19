@@ -1,0 +1,80 @@
+#footer {
+    font-family: "Poppins", sans-serif;
+    background: #1f2833;
+    width: 100%;
+    color: #66fcf1;
+    padding: 60px 10px 30px;
+    @media screen and (max-width: 768px) {
+        padding: 10px;
+    }
+    .footer_content1 {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 50px;
+        @media screen and (max-width: 768px) {
+            padding-bottom: 10px;
+        }
+        @media screen and (max-width: 595px) {
+            flex-wrap: wrap;
+        }
+        @media screen and (max-width: 370px) {
+            text-align: center;
+        }
+    }
+    .footer_content2 {
+        color: #39d5d5;
+        display: flex;
+        justify-content: space-around;
+        @media screen and (max-width: 595px) {
+            flex-wrap: wrap;
+        }
+        .footer_content2-helps {
+            display: flex;
+            justify-content: space-evenly;
+            @media screen and (max-width: 595px) {
+                padding: 0px 0px 15px 0px;
+            }
+            @media screen and (max-width: 444px) {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        }
+        .footer_content2-social_icon {
+            display: grid;
+            grid-template-columns: 50px 50px 50px;
+        }
+    }
+    .footer_content_h2s {
+        font-size: 18px;
+        font-weight: 400;
+        padding: 0px 0px 25px 0px;
+    }
+    .footer_content_ps {
+        color: #39d5d5;
+        font-size: 14px;
+        line-height: 40px;
+    }
+    .footer_content_ps2 {
+        font-size: 13px;
+        padding: 0px 15px;
+        @media screen and (max-width: 444px) {
+            padding: 5px 15px;
+        }
+    }
+    .footer_content1-block1,
+    .footer_content1-block3 {
+        @media screen and (max-width: 544px) {
+            padding: 0px 10px;
+        }
+    }
+    .footer_content1-block2 {
+        @media screen and (max-width: 575px) {
+            display: none;
+        }
+    }
+    .footer_content1-block3 {
+        @media screen and (max-width: 370px) {
+            padding-top: 20px;
+        }
+    }
+}
