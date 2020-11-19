@@ -1,0 +1,58 @@
+#careers {
+    font-family: "Poppins", sans-serif;
+    background: #1f2833;
+    width: 100%;
+    .careers_col {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 70px 0px 90px;
+        @media screen and (max-width: 768px) {
+            padding: 30px 0px 30px;
+        }
+        .box {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            color: #66fcf1;
+            flex: 0 1 350px;
+            padding: 0px 28.5px;
+            margin: 0px 28.5px;
+            @media screen and (max-width: 1221px) {
+                padding: 0px 15px;
+                margin: 0px 15px;
+            }
+            @media screen and (max-width: 1140px) {
+                padding: 0px 10px;
+                margin: 0px 10px;
+            }
+            @media screen and (max-width: 739px) {
+                padding: 15px 5px;
+                flex: 0 1 330px;
+            }
+            img {
+                object-fit: contain;
+            }
+            .box_h2 {
+                margin: 36px 0px 12px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .box_p {
+                color: #45a29e;
+                margin: 0px 0px 19px;
+                line-height: 28px;
+                font-size: 15px;
+            }
+            a {
+                color: #66fcf1;
+                &:hover {
+                    text-decoration: none;
+                    text-decoration-color: transparent;
+                    transition: ease-in-out 0.1s;
+                }
+            }
+        }
+    }
+}
