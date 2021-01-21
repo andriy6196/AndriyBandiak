@@ -1,19 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--[if !IE]><!-->
 <head>
     <meta charset="UTF-8">
     <title>Bookmark</title>
     <link rel="icon" type="image/x-icon" href="inc/images/favicon-32x32.png">
+    <link rel="stylesheet" href="inc/css-part/iconmoon.css">
+    <link rel="stylesheet" href="inc/css-part/normalize.css">
+    <link rel="stylesheet" href="inc/css-part/reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
+<!--<![endif]-->
 <body>
 <div id="page" class="site">
+
+                    <!--HEADER-->
+
     <div class="header-container">
-        <div class="header-row">
+        <div class="header-row container">
             <div class="logoMenu-container">
-                <a href="#">
+                <a href="#page">
                 <img src="inc/images/logo-bookmark.svg" alt="logo-bookmark">
                 </a>
+            </div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu">
+                <div class="logoMenu-container-on">
+                    <a href="#page">
+                        <img src="inc/images/logo-bookmark-white.svg" alt="logo-bookmark">
+                    </a>
+                </div>
+            <ul>
+                <li>
+                    <a href="#">Features</a>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+                <li class="li-last">
+                    <a href="#">Contact</a>
+                </li>
+                <a class="btn-on" href="#">Login</a>
+            </ul>
+                <div class="icons-social">
+                    <a class="facebook icons-soc" href="https://www.facebook.com/"></a>
+                    <a class="twitter icons-soc" href="https://twitter.com/"></a>
+                </div>
             </div>
             <nav id="header-menu">
                 <ul id="header-menu-list">
@@ -27,12 +63,40 @@
                         <a href="#">Contact</a>
                     </li>
                 </ul>
+                <div class="header-btn">
+                    <a href="#">Login</a>
+                </div>
             </nav>
-            <div class="header-btn">
-                <a href="#">Login</a>
-            </div>
         </div>
     </div>
+
+                  <!--MAIN-->
+
+    <main id="primary">
+        <div class="entry-content container">
+            <div class="block1">
+                <h1>A Simple Bookmark <br> Manager</h1>
+                <p>A clean and simple interface to organize your favourite
+                websites. Open a new browser tab and see your sites load
+                instantly. Try it for free.
+                </p>
+                <div class="entry-content-btns">
+                    <div class="entry-content-btn1 entry-content-btn">
+                    <a href="#">Get it on Chrome</a>
+                    </div>
+                    <div class="entry-content-btn2 entry-content-btn">
+                    <a href="#">Get it on Firefox</a>
+                    </div>
+                </div>
+            </div>
+            <div class="block2">
+                <img src="inc/images/illustration-hero.svg" alt="illustration-hero">
+                <div class="block2-bg"></div>
+            </div>
+        </div>
+    </main>
 </div>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
