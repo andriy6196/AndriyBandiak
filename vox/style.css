@@ -735,7 +735,7 @@ a {
      transform: rotate(45deg);
  }
 
- .faq .faq-arrow:hover, .faq .faq-arrow:focus, .faq .faq-arrow:active {
+ .faq .faq-arrow:hover {
      border-top: 3px solid   hsl(0, 94%, 66%);
      border-right: 3px solid   hsl(0, 94%, 66%);
      transition: 0.3s;
