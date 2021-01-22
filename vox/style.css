@@ -267,6 +267,12 @@ a {
      cursor: pointer;
  }
 
+ @media screen and (max-width: 560px) {
+     .burger {
+         height: 45px;  
+     }
+ }
+
  .burger span {
      display: block;
      width: 100%;
