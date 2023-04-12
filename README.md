@@ -1,2 +1,2 @@
-# AndriyBandiak
-Hi, I'm Andriy.
+# AndriiBandiak
+Hi, I'm Andrii.
